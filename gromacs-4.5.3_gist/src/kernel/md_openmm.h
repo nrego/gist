@@ -50,6 +50,9 @@ double do_md_openmm(FILE *fplog,t_commrec *cr,int nfile,const t_filenm fnm[],
              real cpt_period,real max_hours,
              const char *deviceOptions,
              unsigned long Flags,
+             //nrego mod
+             rvec gist_gridctr,real gist_gridspacen, ivec gist_griddim, const char *gist_output,
+             //end nrego mod
              gmx_runtime_t *runtime);
 
 #endif /* _MD_OPENMM_H */

@@ -150,23 +150,26 @@ extern tMPI_Thread_mutex_t deform_init_box_mutex;
 
 
 typedef double gmx_integrator_t(FILE *log,t_commrec *cr,
-				int nfile,const t_filenm fnm[],
-				const output_env_t oenv, gmx_bool bVerbose,
+                int nfile,const t_filenm fnm[],
+                const output_env_t oenv, gmx_bool bVerbose,
                                 gmx_bool bCompact, int nstglobalcomm,
-				gmx_vsite_t *vsite,gmx_constr_t constr,
-				int stepout,
-				t_inputrec *inputrec,
-				gmx_mtop_t *mtop,t_fcdata *fcd,
-				t_state *state,
-				t_mdatoms *mdatoms,
-				t_nrnb *nrnb,gmx_wallcycle_t wcycle,
-				gmx_edsam_t ed, 
-				t_forcerec *fr,
-				int repl_ex_nst,int repl_ex_seed,
-				real cpt_period,real max_hours,
-				const char *deviceOptions,
-				unsigned long Flags,
-				gmx_runtime_t *runtime);
+                gmx_vsite_t *vsite,gmx_constr_t constr,
+                int stepout,
+                t_inputrec *inputrec,
+                gmx_mtop_t *mtop,t_fcdata *fcd,
+                t_state *state,
+                t_mdatoms *mdatoms,
+                t_nrnb *nrnb,gmx_wallcycle_t wcycle,
+                gmx_edsam_t ed, 
+                t_forcerec *fr,
+                int repl_ex_nst,int repl_ex_seed,
+                real cpt_period,real max_hours,
+                const char *deviceOptions,
+                unsigned long Flags,
+                 //nrego mod
+                 rvec gist_gridctr,real gist_gridspacen, ivec gist_griddim, const char *gist_output,
+                 //end nrego mod
+                gmx_runtime_t *runtime);
 
 typedef struct gmx_global_stat *gmx_global_stat_t;
 
@@ -198,35 +201,35 @@ gmx_integrator_t do_tpi;
 
 /* ROUTINES from sim_util.c */
 void do_pbc_first(FILE *log,matrix box,t_forcerec *fr,
-			 t_graph *graph,rvec x[]);
+             t_graph *graph,rvec x[]);
 
 void do_pbc_first_mtop(FILE *fplog,int ePBC,matrix box,
-			      gmx_mtop_t *mtop,rvec x[]);
+                  gmx_mtop_t *mtop,rvec x[]);
 
 void do_pbc_mtop(FILE *fplog,int ePBC,matrix box,
-			gmx_mtop_t *mtop,rvec x[]);
+            gmx_mtop_t *mtop,rvec x[]);
 
-		     
+             
 /* ROUTINES from stat.c */
 gmx_global_stat_t global_stat_init(t_inputrec *ir);
 
 void global_stat_destroy(gmx_global_stat_t gs);
 
 void global_stat(FILE *log,gmx_global_stat_t gs,
-			t_commrec *cr,gmx_enerdata_t *enerd,
-			tensor fvir,tensor svir,rvec mu_tot,
-			t_inputrec *inputrec,
-			gmx_ekindata_t *ekind,
-			gmx_constr_t constr,t_vcm *vcm,
-			int nsig,real *sig,
-			gmx_mtop_t *top_global, t_state *state_local, 
-			gmx_bool bSumEkinhOld, int flags);
+            t_commrec *cr,gmx_enerdata_t *enerd,
+            tensor fvir,tensor svir,rvec mu_tot,
+            t_inputrec *inputrec,
+            gmx_ekindata_t *ekind,
+            gmx_constr_t constr,t_vcm *vcm,
+            int nsig,real *sig,
+            gmx_mtop_t *top_global, t_state *state_local, 
+            gmx_bool bSumEkinhOld, int flags);
 /* Communicate statistics over cr->mpi_comm_mysim */
 
 gmx_mdoutf_t *init_mdoutf(int nfile,const t_filenm fnm[],
-				 int mdrun_flags,
-				 const t_commrec *cr,const t_inputrec *ir,
-				 const output_env_t oenv);
+                 int mdrun_flags,
+                 const t_commrec *cr,const t_inputrec *ir,
+                 const output_env_t oenv);
 /* Returns a pointer to a data structure with all output file pointers
  * and names required by mdrun.
  */
@@ -241,13 +244,13 @@ void done_mdoutf(gmx_mdoutf_t *of);
 #define MDOF_CPT (1<<4)
 
 void write_traj(FILE *fplog,t_commrec *cr,
-		       gmx_mdoutf_t *of,
-		       int mdof_flags,
-		       gmx_mtop_t *top_global,
-		       gmx_large_int_t step,double t,
-		       t_state *state_local,t_state *state_global,
-		       rvec *f_local,rvec *f_global,
-		       int *n_xtc,rvec **x_xtc);
+               gmx_mdoutf_t *of,
+               int mdof_flags,
+               gmx_mtop_t *top_global,
+               gmx_large_int_t step,double t,
+               t_state *state_local,t_state *state_global,
+               rvec *f_local,rvec *f_global,
+               int *n_xtc,rvec **x_xtc);
 /* Routine that writes frames to trn, xtc and/or checkpoint.
  * What is written is determined by the mdof_flags defined above.
  * Data is collected to the master node only when necessary.
@@ -275,33 +278,33 @@ void runtime_upd_proc(gmx_runtime_t *runtime);
  */
   
 void print_date_and_time(FILE *log,int pid,const char *title,
-				const gmx_runtime_t *runtime);
+                const gmx_runtime_t *runtime);
   
 void nstop_cm(FILE *log,t_commrec *cr,
-		     int start,int nr_atoms,real mass[],rvec x[],rvec v[]);
+             int start,int nr_atoms,real mass[],rvec x[],rvec v[]);
 
 void finish_run(FILE *log,t_commrec *cr,const char *confout,
-		       t_inputrec *inputrec,
-		       t_nrnb nrnb[],gmx_wallcycle_t wcycle,
-		       gmx_runtime_t *runtime,
-		       gmx_bool bWriteStat);
+               t_inputrec *inputrec,
+               t_nrnb nrnb[],gmx_wallcycle_t wcycle,
+               gmx_runtime_t *runtime,
+               gmx_bool bWriteStat);
 
 void calc_enervirdiff(FILE *fplog,int eDispCorr,t_forcerec *fr);
 
 void calc_dispcorr(FILE *fplog,t_inputrec *ir,t_forcerec *fr,
-			  gmx_large_int_t step, int natoms, 
-			  matrix box,real lambda,tensor pres,tensor virial,
-			  real *prescorr, real *enercorr, real *dvdlcorr);
+              gmx_large_int_t step, int natoms, 
+              matrix box,real lambda,tensor pres,tensor virial,
+              real *prescorr, real *enercorr, real *dvdlcorr);
 
 typedef enum
 {
-  LIST_SCALARS	=0001,
-  LIST_INPUTREC	=0002,
-  LIST_TOP	=0004,
-  LIST_X	=0010,
-  LIST_V	=0020,
-  LIST_F	=0040,
-  LIST_LOAD	=0100
+  LIST_SCALARS  =0001,
+  LIST_INPUTREC =0002,
+  LIST_TOP  =0004,
+  LIST_X    =0010,
+  LIST_V    =0020,
+  LIST_F    =0040,
+  LIST_LOAD =0100
 } t_listitem;
 
 void check_nnodes_top(char *fn,t_topology *top);
@@ -322,26 +325,30 @@ void init_parallel(FILE *log, t_commrec *cr, t_inputrec *inputrec,
 
 
 void do_constrain_first(FILE *log,gmx_constr_t constr,
-			       t_inputrec *inputrec,t_mdatoms *md,
-			       t_state *state,rvec *f,
-			       t_graph *graph,t_commrec *cr,t_nrnb *nrnb,
-			       t_forcerec *fr, gmx_localtop_t *top, tensor shake_vir); 
-			  
+                   t_inputrec *inputrec,t_mdatoms *md,
+                   t_state *state,rvec *f,
+                   t_graph *graph,t_commrec *cr,t_nrnb *nrnb,
+                   t_forcerec *fr, gmx_localtop_t *top, tensor shake_vir); 
+              
 void dynamic_load_balancing(gmx_bool bVerbose,t_commrec *cr,real capacity[],
-				   int dimension,t_mdatoms *md,t_topology *top,
-				   rvec x[],rvec v[],matrix box);
+                   int dimension,t_mdatoms *md,t_topology *top,
+                   rvec x[],rvec v[],matrix box);
 /* Perform load balancing, i.e. split the particles over processors
  * based on their coordinates in the "dimension" direction.
  */
-				   
+                   
 int mdrunner(int nthreads_requested, FILE *fplog,t_commrec *cr,int nfile,
              const t_filenm fnm[], const output_env_t oenv, gmx_bool bVerbose,
              gmx_bool bCompact, int nstglobalcomm, ivec ddxyz,int dd_node_order,
              real rdd, real rconstr, const char *dddlb_opt,real dlb_scale,
-	     const char *ddcsx,const char *ddcsy,const char *ddcsz,
-	     int nstepout, int resetstep, int nmultisim, int repl_ex_nst,
+         const char *ddcsx,const char *ddcsy,const char *ddcsz,
+         int nstepout, int resetstep, int nmultisim, int repl_ex_nst,
              int repl_ex_seed, real pforce,real cpt_period,real max_hours,
-	     const char *deviceOptions, unsigned long Flags);
+         const char *deviceOptions, unsigned long Flags
+         //nrego mod
+         , rvec gist_gridctr, real gist_gridspacen, ivec gist_griddim, const char *gist_output
+         //end nrego mod
+         );
 /* Driver routine, that calls the different methods */
 
 void md_print_warning(const t_commrec *cr,FILE *fplog,const char *buf);
@@ -350,21 +357,21 @@ void md_print_warning(const t_commrec *cr,FILE *fplog,const char *buf);
  */
 
 void init_md(FILE *fplog,
-		    t_commrec *cr,t_inputrec *ir, const output_env_t oenv, 
-		    double *t,double *t0,
-		    real *lambda,double *lam0,
-		    t_nrnb *nrnb,gmx_mtop_t *mtop,
-		    gmx_update_t *upd,
-		    int nfile,const t_filenm fnm[],
-		    gmx_mdoutf_t **outf,t_mdebin **mdebin,
-		    tensor force_vir,tensor shake_vir,
-		    rvec mu_tot,
-		    gmx_bool *bSimAnn,t_vcm **vcm, 
-		    t_state *state, unsigned long Flags);
+            t_commrec *cr,t_inputrec *ir, const output_env_t oenv, 
+            double *t,double *t0,
+            real *lambda,double *lam0,
+            t_nrnb *nrnb,gmx_mtop_t *mtop,
+            gmx_update_t *upd,
+            int nfile,const t_filenm fnm[],
+            gmx_mdoutf_t **outf,t_mdebin **mdebin,
+            tensor force_vir,tensor shake_vir,
+            rvec mu_tot,
+            gmx_bool *bSimAnn,t_vcm **vcm, 
+            t_state *state, unsigned long Flags);
   /* Routine in sim_util.c */
 
 #ifdef __cplusplus
 }
 #endif
 
-#endif	/* _mdrun_h */
+#endif  /* _mdrun_h */

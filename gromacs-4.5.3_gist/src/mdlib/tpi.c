@@ -130,6 +130,9 @@ double do_tpi(FILE *fplog,t_commrec *cr,
               real cpt_period,real max_hours,
               const char *deviceOptions,
               unsigned long Flags,
+             //nrego mod
+             rvec gist_gridctr,real gist_gridspacen, ivec gist_griddim, const char *gist_output,
+             //end nrego mod
               gmx_runtime_t *runtime)
 {
   const char *TPI="Test Particle Insertion"; 

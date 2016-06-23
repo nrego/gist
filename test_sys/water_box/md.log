@@ -1,12 +1,12 @@
-Log file opened on Thu Jun 23 14:14:19 2016
-Host: nick-ThinkPad-T440p  pid: 28558  nodeid: 0  nnodes:  1
+Log file opened on Thu Jun 23 18:28:12 2016
+Host: nick-ThinkPad-T440p  pid: 13899  nodeid: 0  nnodes:  1
 The Gromacs distribution was built @TMP_TIME@ by
 nick@nick-ThinkPad-T440p [CMAKE] (@TMP_MACHINE@)
 
 
                          :-)  G  R  O  M  A  C  S  (-:
 
-                     Gnomes, ROck Monsters And Chili Sauce
+                   Good gRace! Old Maple Actually Chews Slate
 
                             :-)  VERSION 4.5.3  (-:
 
@@ -225,14 +225,13 @@ ann_npoints:           0
 qm_opts:
    ngQM                 = 0
 
-Initializing Domain Decomposition on 8 nodes
-Dynamic load balancing: auto
+Initializing Domain Decomposition on 2 nodes
+Dynamic load balancing: no
 Will sort the charge groups at every domain (re)decomposition
 Using 0 separate PME nodes
-Scaling the initial minimum size with 1/0.8 (option -dds) = 1.25
-Optimizing the DD grid for 8 cells with a minimum initial size of 0.000 nm
-Domain decomposition grid 4 x 2 x 1, separate PME nodes 0
-PME domain decomposition: 4 x 2 x 1
+Optimizing the DD grid for 2 cells with a minimum initial size of 0.000 nm
+Domain decomposition grid 2 x 1 x 1, separate PME nodes 0
+PME domain decomposition: 2 x 1 x 1
 Domain decomposition nodeid 0, coordinates 0 0 0
 
 Table routines are used for coulomb: TRUE
@@ -276,48 +275,6 @@ J. Comp. Chem. 13 (1992) pp. 952-962
 
 Linking all bonded interactions to atoms
 
-The initial number of communication pulses is: X 2 Y 1
-The initial domain decomposition cell size is: X 0.75 nm Y 1.50 nm
-
-When dynamic load balancing gets turned on, these settings will change to:
-The maximum number of communication pulses is: X 2 Y 1
-The minimum size for domain decomposition cells is 0.550 nm
-The requested allowed shrink of DD cells (option -dds) is: 0.80
-The allowed shrink of domain decomposition cells is: X 0.73 Y 0.73
-
-Making 2D domain decomposition grid 4 x 2 x 1, home cell index 0 0 0
-
-Center of mass motion removal mode is Linear
-We have the following groups for center of mass motion removal:
-  0:  rest
-
-++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
-G. Bussi, D. Donadio and M. Parrinello
-Canonical sampling through velocity rescaling
-J. Chem. Phys. 126 (2007) pp. 014101
--------- -------- --- Thank You --- -------- --------
-
-There are: 2820 Atoms
-There are: 892 VSites
-Charge group distribution at step 0: 123 133 130 134 129 129 129 129
-Grid: 5 x 4 x 6 cells
-
-Constraining the starting coordinates (step 0)
-
-Constraining the coordinates at t0-dt (step 0)
-RMS relative constraint deviation after constraining: 0.00e+00
-Initial temperature: 299.056 K
-
-Started mdrun on node 0 Thu Jun 23 14:14:19 2016
-
-           Step           Time         Lambda
-              0        0.00000        0.00000
-
-   Energies (kJ/mol)
-        LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
-    2.30726e+04   -8.60097e+01   -3.22375e+04   -9.89431e+02   -1.02403e+04
-    Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
-    8.21503e+03   -2.02525e+03   -2.02525e+03    3.69428e+02   -6.34767e+01
- Pressure (bar)
-    3.20943e+04
+The initial number of communication pulses is: X 1
+The initial domain decomposition cell size is: X 1.50 nm
 
