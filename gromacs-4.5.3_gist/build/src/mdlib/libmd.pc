@@ -1,0 +1,12 @@
+libdir=/usr/local/gromacs/lib
+includedir=/usr/local/gromacs/include
+
+Name: libmd
+Description: Gromacs md lib
+URL: http://www.gromacs.org
+Version: 4.5.3
+Requires: libgmx fftw3f libxml-2.0
+Libs.private: -lm -lpthread
+Libs: -L${libdir} -lmd 
+Cflags: -I${includedir}  -DGMX_SOFTWARE_INVSQRT -DGMX_THREADS
+

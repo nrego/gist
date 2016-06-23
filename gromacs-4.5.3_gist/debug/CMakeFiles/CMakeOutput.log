@@ -1,0 +1,1116 @@
+The system is: Linux - 3.19.0-58-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/2.8.12.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/2.8.12.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4293210769/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4293210769.dir/build.make CMakeFiles/cmTryCompileExec4293210769.dir/build
+make[1]: Entering directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4293210769.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4293210769.dir/testCCompiler.c.o   -c /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec4293210769
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4293210769.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec4293210769.dir/testCCompiler.c.o  -o cmTryCompileExec4293210769 -rdynamic 
+make[1]: Leaving directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2999675955/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2999675955.dir/build.make CMakeFiles/cmTryCompileExec2999675955.dir/build
+make[1]: Entering directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2999675955.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2999675955.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec2999675955
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2999675955.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTryCompileExec2999675955.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2999675955 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.3' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2999675955' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec2999675955 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec2999675955.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec2999675955/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec2999675955.dir/build.make CMakeFiles/cmTryCompileExec2999675955.dir/build]
+  ignore line: [make[1]: Entering directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec2999675955.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2999675955.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec2999675955]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2999675955.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTryCompileExec2999675955.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec2999675955 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.3' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2999675955' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec2999675955 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec2999675955.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec2999675955] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
+    arg [CMakeFiles/cmTryCompileExec2999675955.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec737867258/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec737867258.dir/build.make CMakeFiles/cmTryCompileExec737867258.dir/build
+make[1]: Entering directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec737867258.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec737867258.dir/testCXXCompiler.cxx.o -c /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec737867258
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec737867258.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec737867258.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec737867258 -rdynamic 
+make[1]: Leaving directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec722889374/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec722889374.dir/build.make CMakeFiles/cmTryCompileExec722889374.dir/build
+make[1]: Entering directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec722889374.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec722889374.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec722889374
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec722889374.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTryCompileExec722889374.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec722889374 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.3' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec722889374' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec722889374 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec722889374.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec722889374/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec722889374.dir/build.make CMakeFiles/cmTryCompileExec722889374.dir/build]
+  ignore line: [make[1]: Entering directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec722889374.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec722889374.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec722889374]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec722889374.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTryCompileExec722889374.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec722889374 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.8.4-2ubuntu1~14.04.3' --with-bugurl=file:///usr/share/doc/gcc-4.8/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.8 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.8 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.8-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.8-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec722889374' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec722889374 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec722889374.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec722889374] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
+    arg [CMakeFiles/cmTryCompileExec722889374.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.8]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Performing C SOURCE FILE Test CFLAGS_WARN succeded with the following output:
+Change Dir: /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1088027438/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1088027438.dir/build.make CMakeFiles/cmTryCompileExec1088027438.dir/build
+make[1]: Entering directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1088027438.dir/src.c.o
+/usr/bin/cc   -DCFLAGS_WARN   -Wall -Wno-unused -o CMakeFiles/cmTryCompileExec1088027438.dir/src.c.o   -c /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec1088027438
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1088027438.dir/link.txt --verbose=1
+/usr/bin/cc   -DCFLAGS_WARN    CMakeFiles/cmTryCompileExec1088027438.dir/src.c.o  -o cmTryCompileExec1088027438 -rdynamic 
+make[1]: Leaving directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test CFLAGS_EXCESS_PREC succeded with the following output:
+Change Dir: /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4145007307/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4145007307.dir/build.make CMakeFiles/cmTryCompileExec4145007307.dir/build
+make[1]: Entering directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4145007307.dir/src.c.o
+/usr/bin/cc   -DCFLAGS_EXCESS_PREC   -fexcess-precision=fast -o CMakeFiles/cmTryCompileExec4145007307.dir/src.c.o   -c /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec4145007307
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4145007307.dir/link.txt --verbose=1
+/usr/bin/cc   -DCFLAGS_EXCESS_PREC    CMakeFiles/cmTryCompileExec4145007307.dir/src.c.o  -o cmTryCompileExec4145007307 -rdynamic 
+make[1]: Leaving directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test CFLAGS_COPT succeded with the following output:
+Change Dir: /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3087085210/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3087085210.dir/build.make CMakeFiles/cmTryCompileExec3087085210.dir/build
+make[1]: Entering directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3087085210.dir/src.c.o
+/usr/bin/cc   -DCFLAGS_COPT   -fomit-frame-pointer -finline-functions -funroll-all-loops -o CMakeFiles/cmTryCompileExec3087085210.dir/src.c.o   -c /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec3087085210
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3087085210.dir/link.txt --verbose=1
+/usr/bin/cc   -DCFLAGS_COPT    CMakeFiles/cmTryCompileExec3087085210.dir/src.c.o  -o cmTryCompileExec3087085210 -rdynamic 
+make[1]: Leaving directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test CFLAGS_NOINLINE succeded with the following output:
+Change Dir: /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3857591395/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3857591395.dir/build.make CMakeFiles/cmTryCompileExec3857591395.dir/build
+make[1]: Entering directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3857591395.dir/src.c.o
+/usr/bin/cc   -DCFLAGS_NOINLINE   -fno-inline -o CMakeFiles/cmTryCompileExec3857591395.dir/src.c.o   -c /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec3857591395
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3857591395.dir/link.txt --verbose=1
+/usr/bin/cc   -DCFLAGS_NOINLINE    CMakeFiles/cmTryCompileExec3857591395.dir/src.c.o  -o cmTryCompileExec3857591395 -rdynamic 
+make[1]: Leaving directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXXFLAGS_WARN succeded with the following output:
+Change Dir: /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3427982583/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3427982583.dir/build.make CMakeFiles/cmTryCompileExec3427982583.dir/build
+make[1]: Entering directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3427982583.dir/src.cxx.o
+/usr/bin/c++    -DCXXFLAGS_WARN   -Wall -Wno-unused -o CMakeFiles/cmTryCompileExec3427982583.dir/src.cxx.o -c /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec3427982583
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3427982583.dir/link.txt --verbose=1
+/usr/bin/c++    -DCXXFLAGS_WARN    CMakeFiles/cmTryCompileExec3427982583.dir/src.cxx.o  -o cmTryCompileExec3427982583 -rdynamic 
+make[1]: Leaving directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test CXXFLAGS_EXCESS_PREC succeded with the following output:
+Change Dir: /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1613403828/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1613403828.dir/build.make CMakeFiles/cmTryCompileExec1613403828.dir/build
+make[1]: Entering directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1613403828.dir/src.cxx.o
+/usr/bin/c++    -DCXXFLAGS_EXCESS_PREC   -fexcess-precision=fast -o CMakeFiles/cmTryCompileExec1613403828.dir/src.cxx.o -c /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1613403828
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1613403828.dir/link.txt --verbose=1
+/usr/bin/c++    -DCXXFLAGS_EXCESS_PREC    CMakeFiles/cmTryCompileExec1613403828.dir/src.cxx.o  -o cmTryCompileExec1613403828 -rdynamic 
+make[1]: Leaving directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test CXXFLAGS_COPT succeded with the following output:
+Change Dir: /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1550647212/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1550647212.dir/build.make CMakeFiles/cmTryCompileExec1550647212.dir/build
+make[1]: Entering directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1550647212.dir/src.cxx.o
+/usr/bin/c++    -DCXXFLAGS_COPT   -fomit-frame-pointer -finline-functions -funroll-all-loops -o CMakeFiles/cmTryCompileExec1550647212.dir/src.cxx.o -c /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1550647212
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1550647212.dir/link.txt --verbose=1
+/usr/bin/c++    -DCXXFLAGS_COPT    CMakeFiles/cmTryCompileExec1550647212.dir/src.cxx.o  -o cmTryCompileExec1550647212 -rdynamic 
+make[1]: Leaving directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test CXXFLAGS_NOINLINE succeded with the following output:
+Change Dir: /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1786809831/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1786809831.dir/build.make CMakeFiles/cmTryCompileExec1786809831.dir/build
+make[1]: Entering directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1786809831.dir/src.cxx.o
+/usr/bin/c++    -DCXXFLAGS_NOINLINE   -fno-inline -o CMakeFiles/cmTryCompileExec1786809831.dir/src.cxx.o -c /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTryCompileExec1786809831
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1786809831.dir/link.txt --verbose=1
+/usr/bin/c++    -DCXXFLAGS_NOINLINE    CMakeFiles/cmTryCompileExec1786809831.dir/src.cxx.o  -o cmTryCompileExec1786809831 -rdynamic 
+make[1]: Leaving directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0;}
+Determining if files string.h exist passed with the following output:
+Change Dir: /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec550324614/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec550324614.dir/build.make CMakeFiles/cmTryCompileExec550324614.dir/build
+make[1]: Entering directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec550324614.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -fexcess-precision=fast -Wall -Wno-unused      -o CMakeFiles/cmTryCompileExec550324614.dir/CheckIncludeFiles.c.o   -c /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec550324614
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec550324614.dir/link.txt --verbose=1
+/usr/bin/cc  -fexcess-precision=fast -Wall -Wno-unused       CMakeFiles/cmTryCompileExec550324614.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec550324614 -rdynamic 
+make[1]: Leaving directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+
+
+Determining if files math.h exist passed with the following output:
+Change Dir: /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2622580413/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2622580413.dir/build.make CMakeFiles/cmTryCompileExec2622580413.dir/build
+make[1]: Entering directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2622580413.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -fexcess-precision=fast -Wall -Wno-unused      -o CMakeFiles/cmTryCompileExec2622580413.dir/CheckIncludeFiles.c.o   -c /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2622580413
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2622580413.dir/link.txt --verbose=1
+/usr/bin/cc  -fexcess-precision=fast -Wall -Wno-unused       CMakeFiles/cmTryCompileExec2622580413.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2622580413 -rdynamic 
+make[1]: Leaving directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+
+
+Determining if files limits.h exist passed with the following output:
+Change Dir: /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4065277932/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4065277932.dir/build.make CMakeFiles/cmTryCompileExec4065277932.dir/build
+make[1]: Entering directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4065277932.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -fexcess-precision=fast -Wall -Wno-unused      -o CMakeFiles/cmTryCompileExec4065277932.dir/CheckIncludeFiles.c.o   -c /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec4065277932
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4065277932.dir/link.txt --verbose=1
+/usr/bin/cc  -fexcess-precision=fast -Wall -Wno-unused       CMakeFiles/cmTryCompileExec4065277932.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec4065277932 -rdynamic 
+make[1]: Leaving directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+
+
+Determining if files memory.h exist passed with the following output:
+Change Dir: /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2432716067/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2432716067.dir/build.make CMakeFiles/cmTryCompileExec2432716067.dir/build
+make[1]: Entering directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2432716067.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -fexcess-precision=fast -Wall -Wno-unused      -o CMakeFiles/cmTryCompileExec2432716067.dir/CheckIncludeFiles.c.o   -c /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2432716067
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2432716067.dir/link.txt --verbose=1
+/usr/bin/cc  -fexcess-precision=fast -Wall -Wno-unused       CMakeFiles/cmTryCompileExec2432716067.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2432716067 -rdynamic 
+make[1]: Leaving directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+
+
+Determining if files unistd.h exist passed with the following output:
+Change Dir: /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec101142334/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec101142334.dir/build.make CMakeFiles/cmTryCompileExec101142334.dir/build
+make[1]: Entering directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec101142334.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -fexcess-precision=fast -Wall -Wno-unused      -o CMakeFiles/cmTryCompileExec101142334.dir/CheckIncludeFiles.c.o   -c /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec101142334
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec101142334.dir/link.txt --verbose=1
+/usr/bin/cc  -fexcess-precision=fast -Wall -Wno-unused       CMakeFiles/cmTryCompileExec101142334.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec101142334 -rdynamic 
+make[1]: Leaving directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+
+
+Determining if files pwd.h exist passed with the following output:
+Change Dir: /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1475786094/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1475786094.dir/build.make CMakeFiles/cmTryCompileExec1475786094.dir/build
+make[1]: Entering directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1475786094.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -fexcess-precision=fast -Wall -Wno-unused      -o CMakeFiles/cmTryCompileExec1475786094.dir/CheckIncludeFiles.c.o   -c /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1475786094
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1475786094.dir/link.txt --verbose=1
+/usr/bin/cc  -fexcess-precision=fast -Wall -Wno-unused       CMakeFiles/cmTryCompileExec1475786094.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1475786094 -rdynamic 
+make[1]: Leaving directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdint.h exist passed with the following output:
+Change Dir: /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec909871201/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec909871201.dir/build.make CMakeFiles/cmTryCompileExec909871201.dir/build
+make[1]: Entering directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec909871201.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -fexcess-precision=fast -Wall -Wno-unused      -o CMakeFiles/cmTryCompileExec909871201.dir/CheckIncludeFiles.c.o   -c /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec909871201
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec909871201.dir/link.txt --verbose=1
+/usr/bin/cc  -fexcess-precision=fast -Wall -Wno-unused       CMakeFiles/cmTryCompileExec909871201.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec909871201 -rdynamic 
+make[1]: Leaving directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdlib.h exist passed with the following output:
+Change Dir: /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4180585789/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4180585789.dir/build.make CMakeFiles/cmTryCompileExec4180585789.dir/build
+make[1]: Entering directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4180585789.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -fexcess-precision=fast -Wall -Wno-unused      -o CMakeFiles/cmTryCompileExec4180585789.dir/CheckIncludeFiles.c.o   -c /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec4180585789
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4180585789.dir/link.txt --verbose=1
+/usr/bin/cc  -fexcess-precision=fast -Wall -Wno-unused       CMakeFiles/cmTryCompileExec4180585789.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec4180585789 -rdynamic 
+make[1]: Leaving directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3036592963/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3036592963.dir/build.make CMakeFiles/cmTryCompileExec3036592963.dir/build
+make[1]: Entering directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3036592963.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -fexcess-precision=fast -Wall -Wno-unused      -o CMakeFiles/cmTryCompileExec3036592963.dir/CheckIncludeFiles.c.o   -c /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3036592963
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3036592963.dir/link.txt --verbose=1
+/usr/bin/cc  -fexcess-precision=fast -Wall -Wno-unused       CMakeFiles/cmTryCompileExec3036592963.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3036592963 -rdynamic 
+make[1]: Leaving directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+
+
+Determining if files dirent.h exist passed with the following output:
+Change Dir: /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2722996018/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2722996018.dir/build.make CMakeFiles/cmTryCompileExec2722996018.dir/build
+make[1]: Entering directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2722996018.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -fexcess-precision=fast -Wall -Wno-unused      -o CMakeFiles/cmTryCompileExec2722996018.dir/CheckIncludeFiles.c.o   -c /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2722996018
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2722996018.dir/link.txt --verbose=1
+/usr/bin/cc  -fexcess-precision=fast -Wall -Wno-unused       CMakeFiles/cmTryCompileExec2722996018.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2722996018 -rdynamic 
+make[1]: Leaving directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+
+
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1693930497/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1693930497.dir/build.make CMakeFiles/cmTryCompileExec1693930497.dir/build
+make[1]: Entering directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1693930497.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -fexcess-precision=fast -Wall -Wno-unused      -o CMakeFiles/cmTryCompileExec1693930497.dir/CheckIncludeFiles.c.o   -c /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1693930497
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1693930497.dir/link.txt --verbose=1
+/usr/bin/cc  -fexcess-precision=fast -Wall -Wno-unused       CMakeFiles/cmTryCompileExec1693930497.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1693930497 -rdynamic 
+make[1]: Leaving directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+
+
+Determining if files regex.h exist passed with the following output:
+Change Dir: /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1689312085/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1689312085.dir/build.make CMakeFiles/cmTryCompileExec1689312085.dir/build
+make[1]: Entering directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1689312085.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -fexcess-precision=fast -Wall -Wno-unused      -o CMakeFiles/cmTryCompileExec1689312085.dir/CheckIncludeFiles.c.o   -c /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1689312085
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1689312085.dir/link.txt --verbose=1
+/usr/bin/cc  -fexcess-precision=fast -Wall -Wno-unused       CMakeFiles/cmTryCompileExec1689312085.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1689312085 -rdynamic 
+make[1]: Leaving directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/types.h exist passed with the following output:
+Change Dir: /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec281478219/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec281478219.dir/build.make CMakeFiles/cmTryCompileExec281478219.dir/build
+make[1]: Entering directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec281478219.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -fexcess-precision=fast -Wall -Wno-unused      -o CMakeFiles/cmTryCompileExec281478219.dir/CheckIncludeFiles.c.o   -c /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec281478219
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec281478219.dir/link.txt --verbose=1
+/usr/bin/cc  -fexcess-precision=fast -Wall -Wno-unused       CMakeFiles/cmTryCompileExec281478219.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec281478219 -rdynamic 
+make[1]: Leaving directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/stat.h exist passed with the following output:
+Change Dir: /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3462469976/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3462469976.dir/build.make CMakeFiles/cmTryCompileExec3462469976.dir/build
+make[1]: Entering directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3462469976.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -fexcess-precision=fast -Wall -Wno-unused      -o CMakeFiles/cmTryCompileExec3462469976.dir/CheckIncludeFiles.c.o   -c /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3462469976
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3462469976.dir/link.txt --verbose=1
+/usr/bin/cc  -fexcess-precision=fast -Wall -Wno-unused       CMakeFiles/cmTryCompileExec3462469976.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3462469976 -rdynamic 
+make[1]: Leaving directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/time.h exist passed with the following output:
+Change Dir: /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2526565/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2526565.dir/build.make CMakeFiles/cmTryCompileExec2526565.dir/build
+make[1]: Entering directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2526565.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -fexcess-precision=fast -Wall -Wno-unused      -o CMakeFiles/cmTryCompileExec2526565.dir/CheckIncludeFiles.c.o   -c /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2526565
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2526565.dir/link.txt --verbose=1
+/usr/bin/cc  -fexcess-precision=fast -Wall -Wno-unused       CMakeFiles/cmTryCompileExec2526565.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2526565 -rdynamic 
+make[1]: Leaving directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+
+
+Determining if files rpc/rpc.h exist passed with the following output:
+Change Dir: /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec966764922/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec966764922.dir/build.make CMakeFiles/cmTryCompileExec966764922.dir/build
+make[1]: Entering directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec966764922.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -fexcess-precision=fast -Wall -Wno-unused      -o CMakeFiles/cmTryCompileExec966764922.dir/CheckIncludeFiles.c.o   -c /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec966764922
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec966764922.dir/link.txt --verbose=1
+/usr/bin/cc  -fexcess-precision=fast -Wall -Wno-unused       CMakeFiles/cmTryCompileExec966764922.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec966764922 -rdynamic 
+make[1]: Leaving directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+
+
+Determining if files rpc/rpc.h;rpc/xdr.h exist passed with the following output:
+Change Dir: /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1969864895/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1969864895.dir/build.make CMakeFiles/cmTryCompileExec1969864895.dir/build
+make[1]: Entering directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1969864895.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -fexcess-precision=fast -Wall -Wno-unused      -o CMakeFiles/cmTryCompileExec1969864895.dir/CheckIncludeFiles.c.o   -c /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1969864895
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1969864895.dir/link.txt --verbose=1
+/usr/bin/cc  -fexcess-precision=fast -Wall -Wno-unused       CMakeFiles/cmTryCompileExec1969864895.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1969864895 -rdynamic 
+make[1]: Leaving directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+
+
+Determining if files xmmintrin.h exist passed with the following output:
+Change Dir: /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3954036668/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3954036668.dir/build.make CMakeFiles/cmTryCompileExec3954036668.dir/build
+make[1]: Entering directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3954036668.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -fexcess-precision=fast -Wall -Wno-unused      -o CMakeFiles/cmTryCompileExec3954036668.dir/CheckIncludeFiles.c.o   -c /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3954036668
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3954036668.dir/link.txt --verbose=1
+/usr/bin/cc  -fexcess-precision=fast -Wall -Wno-unused       CMakeFiles/cmTryCompileExec3954036668.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3954036668 -rdynamic 
+make[1]: Leaving directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+
+
+Determining if files emmintrin.h exist passed with the following output:
+Change Dir: /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4239986161/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4239986161.dir/build.make CMakeFiles/cmTryCompileExec4239986161.dir/build
+make[1]: Entering directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4239986161.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -fexcess-precision=fast -Wall -Wno-unused      -o CMakeFiles/cmTryCompileExec4239986161.dir/CheckIncludeFiles.c.o   -c /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec4239986161
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4239986161.dir/link.txt --verbose=1
+/usr/bin/cc  -fexcess-precision=fast -Wall -Wno-unused       CMakeFiles/cmTryCompileExec4239986161.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec4239986161 -rdynamic 
+make[1]: Leaving directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strcasecmp exists passed with the following output:
+Change Dir: /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1736045348/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1736045348.dir/build.make CMakeFiles/cmTryCompileExec1736045348.dir/build
+make[1]: Entering directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1736045348.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fexcess-precision=fast -Wall -Wno-unused   -DCHECK_FUNCTION_EXISTS=strcasecmp   -o CMakeFiles/cmTryCompileExec1736045348.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strcasecmp’ [enabled by default]
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec1736045348
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1736045348.dir/link.txt --verbose=1
+/usr/bin/cc  -fexcess-precision=fast -Wall -Wno-unused   -DCHECK_FUNCTION_EXISTS=strcasecmp    CMakeFiles/cmTryCompileExec1736045348.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1736045348 -rdynamic 
+make[1]: Leaving directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strdup exists passed with the following output:
+Change Dir: /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1190409258/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1190409258.dir/build.make CMakeFiles/cmTryCompileExec1190409258.dir/build
+make[1]: Entering directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1190409258.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fexcess-precision=fast -Wall -Wno-unused   -DCHECK_FUNCTION_EXISTS=strdup   -o CMakeFiles/cmTryCompileExec1190409258.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strdup’ [enabled by default]
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec1190409258
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1190409258.dir/link.txt --verbose=1
+/usr/bin/cc  -fexcess-precision=fast -Wall -Wno-unused   -DCHECK_FUNCTION_EXISTS=strdup    CMakeFiles/cmTryCompileExec1190409258.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1190409258 -rdynamic 
+make[1]: Leaving directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function vprintf exists passed with the following output:
+Change Dir: /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2609731028/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2609731028.dir/build.make CMakeFiles/cmTryCompileExec2609731028.dir/build
+make[1]: Entering directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2609731028.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fexcess-precision=fast -Wall -Wno-unused   -DCHECK_FUNCTION_EXISTS=vprintf   -o CMakeFiles/cmTryCompileExec2609731028.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘vprintf’ [enabled by default]
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec2609731028
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2609731028.dir/link.txt --verbose=1
+/usr/bin/cc  -fexcess-precision=fast -Wall -Wno-unused   -DCHECK_FUNCTION_EXISTS=vprintf    CMakeFiles/cmTryCompileExec2609731028.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2609731028 -rdynamic 
+make[1]: Leaving directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function memcmp exists passed with the following output:
+Change Dir: /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1400192027/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1400192027.dir/build.make CMakeFiles/cmTryCompileExec1400192027.dir/build
+make[1]: Entering directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1400192027.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fexcess-precision=fast -Wall -Wno-unused   -DCHECK_FUNCTION_EXISTS=memcmp   -o CMakeFiles/cmTryCompileExec1400192027.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘memcmp’ [enabled by default]
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec1400192027
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1400192027.dir/link.txt --verbose=1
+/usr/bin/cc  -fexcess-precision=fast -Wall -Wno-unused   -DCHECK_FUNCTION_EXISTS=memcmp    CMakeFiles/cmTryCompileExec1400192027.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1400192027 -rdynamic 
+make[1]: Leaving directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function posix_memalign exists passed with the following output:
+Change Dir: /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2615998562/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2615998562.dir/build.make CMakeFiles/cmTryCompileExec2615998562.dir/build
+make[1]: Entering directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2615998562.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fexcess-precision=fast -Wall -Wno-unused   -DCHECK_FUNCTION_EXISTS=posix_memalign   -o CMakeFiles/cmTryCompileExec2615998562.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2615998562
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2615998562.dir/link.txt --verbose=1
+/usr/bin/cc  -fexcess-precision=fast -Wall -Wno-unused   -DCHECK_FUNCTION_EXISTS=posix_memalign    CMakeFiles/cmTryCompileExec2615998562.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2615998562 -rdynamic 
+make[1]: Leaving directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function memalign exists passed with the following output:
+Change Dir: /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1713122210/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1713122210.dir/build.make CMakeFiles/cmTryCompileExec1713122210.dir/build
+make[1]: Entering directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1713122210.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fexcess-precision=fast -Wall -Wno-unused   -DCHECK_FUNCTION_EXISTS=memalign   -o CMakeFiles/cmTryCompileExec1713122210.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1713122210
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1713122210.dir/link.txt --verbose=1
+/usr/bin/cc  -fexcess-precision=fast -Wall -Wno-unused   -DCHECK_FUNCTION_EXISTS=memalign    CMakeFiles/cmTryCompileExec1713122210.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1713122210 -rdynamic 
+make[1]: Leaving directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gettimeofday exists passed with the following output:
+Change Dir: /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3913177334/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3913177334.dir/build.make CMakeFiles/cmTryCompileExec3913177334.dir/build
+make[1]: Entering directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3913177334.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fexcess-precision=fast -Wall -Wno-unused   -DCHECK_FUNCTION_EXISTS=gettimeofday   -o CMakeFiles/cmTryCompileExec3913177334.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3913177334
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3913177334.dir/link.txt --verbose=1
+/usr/bin/cc  -fexcess-precision=fast -Wall -Wno-unused   -DCHECK_FUNCTION_EXISTS=gettimeofday    CMakeFiles/cmTryCompileExec3913177334.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3913177334 -rdynamic 
+make[1]: Leaving directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function isnan exists passed with the following output:
+Change Dir: /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3228751571/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3228751571.dir/build.make CMakeFiles/cmTryCompileExec3228751571.dir/build
+make[1]: Entering directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3228751571.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fexcess-precision=fast -Wall -Wno-unused   -DCHECK_FUNCTION_EXISTS=isnan   -o CMakeFiles/cmTryCompileExec3228751571.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘isnan’ [enabled by default]
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec3228751571
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3228751571.dir/link.txt --verbose=1
+/usr/bin/cc  -fexcess-precision=fast -Wall -Wno-unused   -DCHECK_FUNCTION_EXISTS=isnan    CMakeFiles/cmTryCompileExec3228751571.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3228751571 -rdynamic 
+make[1]: Leaving directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function fsync exists passed with the following output:
+Change Dir: /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1569541550/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1569541550.dir/build.make CMakeFiles/cmTryCompileExec1569541550.dir/build
+make[1]: Entering directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1569541550.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fexcess-precision=fast -Wall -Wno-unused   -DCHECK_FUNCTION_EXISTS=fsync   -o CMakeFiles/cmTryCompileExec1569541550.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1569541550
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1569541550.dir/link.txt --verbose=1
+/usr/bin/cc  -fexcess-precision=fast -Wall -Wno-unused   -DCHECK_FUNCTION_EXISTS=fsync    CMakeFiles/cmTryCompileExec1569541550.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1569541550 -rdynamic 
+make[1]: Leaving directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function fileno exists passed with the following output:
+Change Dir: /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4276845116/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4276845116.dir/build.make CMakeFiles/cmTryCompileExec4276845116.dir/build
+make[1]: Entering directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4276845116.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fexcess-precision=fast -Wall -Wno-unused   -DCHECK_FUNCTION_EXISTS=fileno   -o CMakeFiles/cmTryCompileExec4276845116.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4276845116
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4276845116.dir/link.txt --verbose=1
+/usr/bin/cc  -fexcess-precision=fast -Wall -Wno-unused   -DCHECK_FUNCTION_EXISTS=fileno    CMakeFiles/cmTryCompileExec4276845116.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4276845116 -rdynamic 
+make[1]: Leaving directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sqrt exists in the m passed with the following output:
+Change Dir: /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3512377012/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3512377012.dir/build.make CMakeFiles/cmTryCompileExec3512377012.dir/build
+make[1]: Entering directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3512377012.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fexcess-precision=fast -Wall -Wno-unused   -DCHECK_FUNCTION_EXISTS=sqrt   -o CMakeFiles/cmTryCompileExec3512377012.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘sqrt’ [enabled by default]
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec3512377012
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3512377012.dir/link.txt --verbose=1
+/usr/bin/cc  -fexcess-precision=fast -Wall -Wno-unused   -DCHECK_FUNCTION_EXISTS=sqrt    CMakeFiles/cmTryCompileExec3512377012.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3512377012 -rdynamic -lm 
+make[1]: Leaving directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function cbrt exists in the m passed with the following output:
+Change Dir: /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1413605105/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1413605105.dir/build.make CMakeFiles/cmTryCompileExec1413605105.dir/build
+make[1]: Entering directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1413605105.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fexcess-precision=fast -Wall -Wno-unused   -DCHECK_FUNCTION_EXISTS=cbrt   -o CMakeFiles/cmTryCompileExec1413605105.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘cbrt’ [enabled by default]
+/usr/share/cmake-2.8/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec1413605105
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1413605105.dir/link.txt --verbose=1
+/usr/bin/cc  -fexcess-precision=fast -Wall -Wno-unused   -DCHECK_FUNCTION_EXISTS=cbrt    CMakeFiles/cmTryCompileExec1413605105.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1413605105 -rdynamic -lm 
+make[1]: Leaving directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1368005495/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1368005495.dir/build.make CMakeFiles/cmTryCompileExec1368005495.dir/build
+make[1]: Entering directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1368005495.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fexcess-precision=fast -Wall -Wno-unused      -o CMakeFiles/cmTryCompileExec1368005495.dir/CheckIncludeFile.c.o   -c /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1368005495
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1368005495.dir/link.txt --verbose=1
+/usr/bin/cc  -fexcess-precision=fast -Wall -Wno-unused       CMakeFiles/cmTryCompileExec1368005495.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1368005495 -rdynamic 
+make[1]: Leaving directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+
+
+Determining size of int passed with the following output:
+Change Dir: /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3635074988/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3635074988.dir/build.make CMakeFiles/cmTryCompileExec3635074988.dir/build
+make[1]: Entering directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3635074988.dir/SIZEOF_INT.c.o
+/usr/bin/cc   -fexcess-precision=fast -Wall -Wno-unused      -o CMakeFiles/cmTryCompileExec3635074988.dir/SIZEOF_INT.c.o   -c /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CheckTypeSize/SIZEOF_INT.c
+Linking C executable cmTryCompileExec3635074988
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3635074988.dir/link.txt --verbose=1
+/usr/bin/cc  -fexcess-precision=fast -Wall -Wno-unused       CMakeFiles/cmTryCompileExec3635074988.dir/SIZEOF_INT.c.o  -o cmTryCompileExec3635074988 -rdynamic 
+make[1]: Leaving directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+
+
+Determining size of long int passed with the following output:
+Change Dir: /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4286644133/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4286644133.dir/build.make CMakeFiles/cmTryCompileExec4286644133.dir/build
+make[1]: Entering directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4286644133.dir/SIZEOF_LONG_INT.c.o
+/usr/bin/cc   -fexcess-precision=fast -Wall -Wno-unused      -o CMakeFiles/cmTryCompileExec4286644133.dir/SIZEOF_LONG_INT.c.o   -c /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CheckTypeSize/SIZEOF_LONG_INT.c
+Linking C executable cmTryCompileExec4286644133
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4286644133.dir/link.txt --verbose=1
+/usr/bin/cc  -fexcess-precision=fast -Wall -Wno-unused       CMakeFiles/cmTryCompileExec4286644133.dir/SIZEOF_LONG_INT.c.o  -o cmTryCompileExec4286644133 -rdynamic 
+make[1]: Leaving directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+
+
+Determining size of long long int passed with the following output:
+Change Dir: /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec754337120/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec754337120.dir/build.make CMakeFiles/cmTryCompileExec754337120.dir/build
+make[1]: Entering directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec754337120.dir/SIZEOF_LONG_LONG_INT.c.o
+/usr/bin/cc   -fexcess-precision=fast -Wall -Wno-unused      -o CMakeFiles/cmTryCompileExec754337120.dir/SIZEOF_LONG_LONG_INT.c.o   -c /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CheckTypeSize/SIZEOF_LONG_LONG_INT.c
+Linking C executable cmTryCompileExec754337120
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec754337120.dir/link.txt --verbose=1
+/usr/bin/cc  -fexcess-precision=fast -Wall -Wno-unused       CMakeFiles/cmTryCompileExec754337120.dir/SIZEOF_LONG_LONG_INT.c.o  -o cmTryCompileExec754337120 -rdynamic 
+make[1]: Leaving directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+
+
+Determining size of off_t passed with the following output:
+Change Dir: /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4203708650/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4203708650.dir/build.make CMakeFiles/cmTryCompileExec4203708650.dir/build
+make[1]: Entering directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4203708650.dir/SIZEOF_OFF_T.c.o
+/usr/bin/cc   -fexcess-precision=fast -Wall -Wno-unused      -o CMakeFiles/cmTryCompileExec4203708650.dir/SIZEOF_OFF_T.c.o   -c /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CheckTypeSize/SIZEOF_OFF_T.c
+Linking C executable cmTryCompileExec4203708650
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4203708650.dir/link.txt --verbose=1
+/usr/bin/cc  -fexcess-precision=fast -Wall -Wno-unused       CMakeFiles/cmTryCompileExec4203708650.dir/SIZEOF_OFF_T.c.o  -o cmTryCompileExec4203708650 -rdynamic 
+make[1]: Leaving directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+
+
+Determining size of void * passed with the following output:
+Change Dir: /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec112800276/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec112800276.dir/build.make CMakeFiles/cmTryCompileExec112800276.dir/build
+make[1]: Entering directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec112800276.dir/SIZEOF_VOIDP.c.o
+/usr/bin/cc   -fexcess-precision=fast -Wall -Wno-unused      -o CMakeFiles/cmTryCompileExec112800276.dir/SIZEOF_VOIDP.c.o   -c /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CheckTypeSize/SIZEOF_VOIDP.c
+Linking C executable cmTryCompileExec112800276
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec112800276.dir/link.txt --verbose=1
+/usr/bin/cc  -fexcess-precision=fast -Wall -Wno-unused       CMakeFiles/cmTryCompileExec112800276.dir/SIZEOF_VOIDP.c.o  -o cmTryCompileExec112800276 -rdynamic 
+make[1]: Leaving directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+
+
+Determining size of uid_t passed with the following output:
+Change Dir: /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2025764146/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2025764146.dir/build.make CMakeFiles/cmTryCompileExec2025764146.dir/build
+make[1]: Entering directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2025764146.dir/uid_t.c.o
+/usr/bin/cc   -fexcess-precision=fast -Wall -Wno-unused      -o CMakeFiles/cmTryCompileExec2025764146.dir/uid_t.c.o   -c /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CheckTypeSize/uid_t.c
+Linking C executable cmTryCompileExec2025764146
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2025764146.dir/link.txt --verbose=1
+/usr/bin/cc  -fexcess-precision=fast -Wall -Wno-unused       CMakeFiles/cmTryCompileExec2025764146.dir/uid_t.c.o  -o cmTryCompileExec2025764146 -rdynamic 
+make[1]: Leaving directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+
+
+Determining size of gid_t passed with the following output:
+Change Dir: /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec560762877/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec560762877.dir/build.make CMakeFiles/cmTryCompileExec560762877.dir/build
+make[1]: Entering directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec560762877.dir/gid_t.c.o
+/usr/bin/cc   -fexcess-precision=fast -Wall -Wno-unused      -o CMakeFiles/cmTryCompileExec560762877.dir/gid_t.c.o   -c /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CheckTypeSize/gid_t.c
+Linking C executable cmTryCompileExec560762877
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec560762877.dir/link.txt --verbose=1
+/usr/bin/cc  -fexcess-precision=fast -Wall -Wno-unused       CMakeFiles/cmTryCompileExec560762877.dir/gid_t.c.o  -o cmTryCompileExec560762877 -rdynamic 
+make[1]: Leaving directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec91295837/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec91295837.dir/build.make CMakeFiles/cmTryCompileExec91295837.dir/build
+make[1]: Entering directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec91295837.dir/size_t.c.o
+/usr/bin/cc   -fexcess-precision=fast -Wall -Wno-unused      -o CMakeFiles/cmTryCompileExec91295837.dir/size_t.c.o   -c /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CheckTypeSize/size_t.c
+Linking C executable cmTryCompileExec91295837
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec91295837.dir/link.txt --verbose=1
+/usr/bin/cc  -fexcess-precision=fast -Wall -Wno-unused       CMakeFiles/cmTryCompileExec91295837.dir/size_t.c.o  -o cmTryCompileExec91295837 -rdynamic 
+make[1]: Leaving directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+
+
+Determining size of off_t passed with the following output:
+Change Dir: /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2902259955/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2902259955.dir/build.make CMakeFiles/cmTryCompileExec2902259955.dir/build
+make[1]: Entering directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2902259955.dir/off_t.c.o
+/usr/bin/cc   -fexcess-precision=fast -Wall -Wno-unused      -o CMakeFiles/cmTryCompileExec2902259955.dir/off_t.c.o   -c /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CheckTypeSize/off_t.c
+Linking C executable cmTryCompileExec2902259955
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2902259955.dir/link.txt --verbose=1
+/usr/bin/cc  -fexcess-precision=fast -Wall -Wno-unused       CMakeFiles/cmTryCompileExec2902259955.dir/off_t.c.o  -o cmTryCompileExec2902259955 -rdynamic 
+make[1]: Leaving directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2664450348/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2664450348.dir/build.make CMakeFiles/cmTryCompileExec2664450348.dir/build
+make[1]: Entering directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2664450348.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+/usr/bin/cc   -fexcess-precision=fast -Wall -Wno-unused      -o CMakeFiles/cmTryCompileExec2664450348.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTryCompileExec2664450348
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2664450348.dir/link.txt --verbose=1
+/usr/bin/cc  -fexcess-precision=fast -Wall -Wno-unused       CMakeFiles/cmTryCompileExec2664450348.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTryCompileExec2664450348 -rdynamic 
+make[1]: Leaving directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1159608880/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1159608880.dir/build.make CMakeFiles/cmTryCompileExec1159608880.dir/build
+make[1]: Entering directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1159608880.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -fexcess-precision=fast -Wall -Wno-unused      -o CMakeFiles/cmTryCompileExec1159608880.dir/CheckIncludeFiles.c.o   -c /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1159608880
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1159608880.dir/link.txt --verbose=1
+/usr/bin/cc  -fexcess-precision=fast -Wall -Wno-unused       CMakeFiles/cmTryCompileExec1159608880.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1159608880 -rdynamic 
+make[1]: Leaving directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3171539350/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3171539350.dir/build.make CMakeFiles/cmTryCompileExec3171539350.dir/build
+make[1]: Entering directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3171539350.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fexcess-precision=fast -Wall -Wno-unused   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3171539350.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3171539350
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3171539350.dir/link.txt --verbose=1
+/usr/bin/cc  -fexcess-precision=fast -Wall -Wno-unused   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3171539350.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3171539350 -rdynamic -lpthread 
+make[1]: Leaving directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+
+
+Determining if files sched.h exist passed with the following output:
+Change Dir: /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2209662722/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2209662722.dir/build.make CMakeFiles/cmTryCompileExec2209662722.dir/build
+make[1]: Entering directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2209662722.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -fexcess-precision=fast -Wall -Wno-unused      -o CMakeFiles/cmTryCompileExec2209662722.dir/CheckIncludeFiles.c.o   -c /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2209662722
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2209662722.dir/link.txt --verbose=1
+/usr/bin/cc  -fexcess-precision=fast -Wall -Wno-unused       CMakeFiles/cmTryCompileExec2209662722.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2209662722 -rdynamic 
+make[1]: Leaving directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sysconf exists passed with the following output:
+Change Dir: /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4114283449/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4114283449.dir/build.make CMakeFiles/cmTryCompileExec4114283449.dir/build
+make[1]: Entering directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4114283449.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -fexcess-precision=fast -Wall -Wno-unused   -DCHECK_FUNCTION_EXISTS=sysconf   -o CMakeFiles/cmTryCompileExec4114283449.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4114283449
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4114283449.dir/link.txt --verbose=1
+/usr/bin/cc  -fexcess-precision=fast -Wall -Wno-unused   -DCHECK_FUNCTION_EXISTS=sysconf    CMakeFiles/cmTryCompileExec4114283449.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4114283449 -rdynamic 
+make[1]: Leaving directory `/usr/local/src/gist/gromacs-4.5.3_gist/debug/CMakeFiles/CMakeTmp'
+
+
+Checking whether the ASM-ATT compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+GNU assembler (GNU Binutils for Ubuntu) 2.24
+Copyright 2013 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or later.
+This program has absolutely no warranty.
+This assembler was configured for a target of `x86_64-linux-gnu'.

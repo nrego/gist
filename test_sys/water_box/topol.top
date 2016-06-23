@@ -1,0 +1,41 @@
+;
+;	File 'topol.top' was generated
+;	By user: nick (1000)
+;	On host: nick-ThinkPad-T440p
+;	At date: Mon Jun 20 21:43:01 2016
+;
+;	This is a standalone topology file
+;
+;	It was generated using program:
+;	pdb2gmx - VERSION 4.5.3
+;
+;	Command line was:
+;	pdb2gmx -f ACM_model.gro -o acetamide.gro 
+;
+;	Force field was read from current directory or a relative path - path added.
+;
+
+; Include forcefield parameters
+#include "./charmm36-jun2015.ff/forcefield.itp"
+
+
+; Include water topology
+#include "./charmm36-jun2015.ff/tip4p2005.itp"
+
+#ifdef POSRES_WATER
+; Position restraint for each water oxygen
+[ position_restraints ]
+;  i funct       fcx        fcy        fcz
+   1    1       1000       1000       1000
+#endif
+
+#include "./charmm36-jun2015.ff/wall.itp"
+
+[ system ]
+; Name
+Gromacs Runs On Most of All Computer Systems in water
+
+[ molecules ]
+; Compound        #mols
+SOL               892
+WAL               144

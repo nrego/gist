@@ -1,0 +1,49 @@
+
+integrator = md	
+nsteps	   = 50000         
+dt         = 0.002		
+
+nstxout	  = 0
+nstxtcout = 5  	
+nstvout	  = 50000
+nstenergy = 50000
+nstlog	  = 50000
+
+energy-grps    = System
+;energygrp_excl = WAL WAL
+
+nstlist = 10
+ns_type = grid
+
+pbc = xyz
+
+rlist    = 1.1
+rcoulomb = 1.1
+rvdw     = 1.1
+
+coulombtype    = PME
+pme_order      = 4
+fourierspacing = 0.12
+
+vdwtype = Cut-off
+
+DispCorr = EnerPres
+
+tcoupl  = v-rescale
+tc-grps = System
+tau_t   = 0.1
+ref_t   = 300
+ld_seed = 1000
+pcoupl = no
+
+gen_vel  = yes
+gen_temp = 300
+gen_seed = 1000
+
+constraints          = h-bonds
+constraint_algorithm = lincs
+lincs_order          = 4
+lincs_iter           = 2
+
+freezegrps = WAL
+freezedim  = Y Y Y
