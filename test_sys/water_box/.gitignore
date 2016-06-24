@@ -2,3 +2,7 @@
 *.log
 *.trr
 *.cpt
+confout.gro
+ener.edr
+traj.trr
+mdout.mdp
