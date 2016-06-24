@@ -2,7 +2,7 @@
 ;	File 'mdout.mdp' was generated
 ;	By user: nick (1000)
 ;	On host: nick-ThinkPad-T440p
-;	At date: Fri Jun 24 11:03:05 2016
+;	At date: Fri Jun 24 11:27:28 2016
 ;
 
 ; VARIOUS PREPROCESSING OPTIONS
@@ -59,7 +59,7 @@ nstlog                   = 50000
 nstcalcenergy            = -1
 nstenergy                = 50000
 ; Output frequency and precision for xtc file
-nstxtcout                = 5
+nstxtcout                = 50
 xtc-precision            = 1000
 ; This selects the subset of atoms for the xtc file. You can
 ; select multiple groups. By default all atoms will be written.
@@ -241,6 +241,10 @@ wall_ewald_zfac          = 3
 ; COM PULLING          
 ; Pull type: no, umbrella, constraint or constant_force
 pull                     = no
+
+; UMBRELLAS            
+; Link to a file describing the umbrella potentials to add to this run
+umbrellas                = 
 
 ; NMR refinement stuff 
 ; Distance restraints type: No, Simple or Ensemble

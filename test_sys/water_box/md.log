@@ -1,12 +1,12 @@
-Log file opened on Fri Jun 24 07:57:07 2016
-Host: nick-ThinkPad-T440p  pid: 8408  nodeid: 0  nnodes:  1
+Log file opened on Fri Jun 24 11:27:31 2016
+Host: nick-ThinkPad-T440p  pid: 31640  nodeid: 0  nnodes:  1
 The Gromacs distribution was built @TMP_TIME@ by
 nick@nick-ThinkPad-T440p [CMAKE] (@TMP_MACHINE@)
 
 
                          :-)  G  R  O  M  A  C  S  (-:
 
-              GROningen Mixture of Alchemy and Childrens' Stories
+                               Grunge ROck MAChoS
 
                             :-)  VERSION 4.5.3  (-:
 
@@ -28,7 +28,7 @@ nick@nick-ThinkPad-T440p [CMAKE] (@TMP_MACHINE@)
          as published by the Free Software Foundation; either version 2
              of the License, or (at your option) any later version.
 
-          :-)  /usr/local/src/gist/test_sys/water_box/mdrun_gist  (-:
+                                :-)  mdrun  (-:
 
 
 ++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
@@ -75,7 +75,7 @@ Input Parameters:
    nstfout              = 0
    nstcalcenergy        = 10
    nstenergy            = 50000
-   nstxtcout            = 5
+   nstxtcout            = 50
    init_t               = 0
    delta_t              = 0.002
    xtcprec              = 1000
@@ -206,3 +206,239 @@ ann_npoints:           0
    acc:	           0           0           0
    nfreeze:           Y           Y           Y           N           N           N
    energygrp_flags[  0]: 0
+   efield-x:
+      n = 0
+   efield-xt:
+      n = 0
+   efield-y:
+      n = 0
+   efield-yt:
+      n = 0
+   efield-z:
+      n = 0
+   efield-zt:
+      n = 0
+   bQMMM                = FALSE
+   QMconstraints        = 0
+   QMMMscheme           = 0
+   scalefactor          = 1
+qm_opts:
+   ngQM                 = 0
+
+Initializing Domain Decomposition on 8 nodes
+Dynamic load balancing: auto
+Will sort the charge groups at every domain (re)decomposition
+Using 0 separate PME nodes
+Scaling the initial minimum size with 1/0.8 (option -dds) = 1.25
+Optimizing the DD grid for 8 cells with a minimum initial size of 0.000 nm
+Domain decomposition grid 4 x 2 x 1, separate PME nodes 0
+PME domain decomposition: 4 x 2 x 1
+Domain decomposition nodeid 0, coordinates 0 0 0
+
+Table routines are used for coulomb: TRUE
+Table routines are used for vdw:     FALSE
+Will do PME sum in reciprocal space.
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+U. Essman, L. Perela, M. L. Berkowitz, T. Darden, H. Lee and L. G. Pedersen 
+A smooth particle mesh Ewald method
+J. Chem. Phys. 103 (1995) pp. 8577-8592
+-------- -------- --- Thank You --- -------- --------
+
+Will do ordinary reciprocal space Ewald sum.
+Using a Gaussian width (1/beta) of 0.352179 nm for Ewald
+Cut-off's:   NS: 1.1   Coulomb: 1.1   LJ: 1.1
+Long Range LJ corr.: <C6> 1.7851e-04
+System total charge: 0.000
+Generated table with 1050 data points for Ewald.
+Tabscale = 500 points/nm
+Generated table with 1050 data points for LJ6.
+Tabscale = 500 points/nm
+Generated table with 1050 data points for LJ12.
+Tabscale = 500 points/nm
+
+Enabling TIP4p-like water optimization for 892 molecules.
+
+Configuring nonbonded kernels...
+Configuring standard C nonbonded kernels...
+Testing x86_64 SSE2 support... present.
+
+
+Removing pbc first time
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+S. Miyamoto and P. A. Kollman
+SETTLE: An Analytical Version of the SHAKE and RATTLE Algorithms for Rigid
+Water Models
+J. Comp. Chem. 13 (1992) pp. 952-962
+-------- -------- --- Thank You --- -------- --------
+
+
+Linking all bonded interactions to atoms
+
+The initial number of communication pulses is: X 2 Y 1
+The initial domain decomposition cell size is: X 0.75 nm Y 1.50 nm
+
+When dynamic load balancing gets turned on, these settings will change to:
+The maximum number of communication pulses is: X 2 Y 1
+The minimum size for domain decomposition cells is 0.550 nm
+The requested allowed shrink of DD cells (option -dds) is: 0.80
+The allowed shrink of domain decomposition cells is: X 0.73 Y 0.73
+
+Making 2D domain decomposition grid 4 x 2 x 1, home cell index 0 0 0
+
+Center of mass motion removal mode is Linear
+We have the following groups for center of mass motion removal:
+  0:  rest
+
+++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
+G. Bussi, D. Donadio and M. Parrinello
+Canonical sampling through velocity rescaling
+J. Chem. Phys. 126 (2007) pp. 014101
+-------- -------- --- Thank You --- -------- --------
+
+There are: 2820 Atoms
+There are: 892 VSites
+Charge group distribution at step 0: 123 133 130 134 129 129 129 129
+Grid: 5 x 4 x 6 cells
+
+Constraining the starting coordinates (step 0)
+
+Constraining the coordinates at t0-dt (step 0)
+RMS relative constraint deviation after constraining: 0.00e+00
+Initial temperature: 299.056 K
+
+Started mdrun on node 0 Fri Jun 24 11:27:31 2016
+
+           Step           Time         Lambda
+              0        0.00000        0.00000
+
+   Energies (kJ/mol)
+        LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
+    2.30726e+04   -8.60097e+01   -3.22375e+04   -9.89431e+02   -1.02403e+04
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
+    8.21503e+03   -2.02525e+03   -2.02525e+03    3.69428e+02   -6.34767e+01
+ Pressure (bar)
+    3.20943e+04
+
+DD  step 9 load imb.: force  6.2%
+
+DD  step 49999 load imb.: force  4.6%
+
+           Step           Time         Lambda
+          50000      100.00000        0.00000
+
+Writing checkpoint, step 50000 at Fri Jun 24 11:28:44 2016
+
+
+   Energies (kJ/mol)
+        LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
+    7.32916e+03   -8.60097e+01   -4.60252e+04   -2.43882e+03   -4.12209e+04
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
+    6.59640e+03   -3.46245e+04   -2.68427e+03    2.96639e+02   -6.34767e+01
+ Pressure (bar)
+   -3.96446e+02
+
+	<======  ###############  ==>
+	<====  A V E R A G E S  ====>
+	<==  ###############  ======>
+
+	Statistics over 50001 steps using 5001 frames
+
+   Energies (kJ/mol)
+        LJ (SR)  Disper. corr.   Coulomb (SR)   Coul. recip.      Potential
+    7.33433e+03   -8.60097e+01   -4.59849e+04   -2.46220e+03   -4.11988e+04
+    Kinetic En.   Total Energy  Conserved En.    Temperature Pres. DC (bar)
+    6.70539e+03   -3.44934e+04   -2.82269e+03    3.01540e+02   -6.34767e+01
+ Pressure (bar)
+   -2.11589e+02
+
+   Total Virial (kJ/mol)
+    2.60779e+03   -3.48619e+01   -2.13584e+00
+   -3.48681e+01    2.62577e+03   -7.19168e-01
+   -2.24897e+00   -7.89171e-01    2.33192e+03
+
+   Pressure (bar)
+   -2.83780e+02    2.61266e+01    5.40588e-01
+    2.61312e+01   -2.98510e+02    1.35617e+00
+    6.24079e-01    1.40783e+00   -5.24761e+01
+
+   Total Dipole (D)
+   -3.69363e+01    8.45894e+00   -3.38230e+00
+
+
+	M E G A - F L O P S   A C C O U N T I N G
+
+   RF=Reaction-Field  FE=Free Energy  SCFE=Soft-Core/Free Energy
+   T=Tabulated        W3=SPC/TIP3p    W4=TIP4p (single or pairs)
+   NF=No Forces
+
+ Computing:                               M-Number         M-Flops  % Flops
+-----------------------------------------------------------------------------
+ LJ                                     251.529554        8300.475     0.4
+ Coul(T) + LJ [W4-W4]                  3506.181895     1409485.122    72.6
+ Outer nonbonded loop                  1177.634376       11776.344     0.6
+ Calc Weights                           556.811136       20045.201     1.0
+ Spread Q Bspline                     11878.637568       23757.275     1.2
+ Gather F Bspline                     11878.637568       71271.825     3.7
+ 3D-FFT                               38535.770700      308286.166    15.9
+ Solve PME                              687.513750       44000.880     2.3
+ NS-Pairs                               963.975142       20243.478     1.0
+ Reset In Box                             5.181036          15.543     0.0
+ CG-CoM                                  18.567424          55.702     0.0
+ Virial                                  20.364072         366.553     0.0
+ Stop-CM                                 18.563712         185.637     0.0
+ Calc-Ekin                              185.607424        5011.400     0.3
+ Constraint-V                           133.805352        1070.443     0.1
+ Constraint-Vir                          13.382676         321.184     0.0
+ Settle                                  44.602676       14406.664     0.7
+ Virtual Site 3                          49.061784        1815.286     0.1
+-----------------------------------------------------------------------------
+ Total                                                 1940415.179   100.0
+-----------------------------------------------------------------------------
+
+
+    D O M A I N   D E C O M P O S I T I O N   S T A T I S T I C S
+
+ av. #atoms communicated per step for force:  2 x 11267.2
+
+ Average load imbalance: 6.7 %
+ Part of the total run time spent waiting due to load imbalance: 3.4 %
+
+
+     R E A L   C Y C L E   A N D   T I M E   A C C O U N T I N G
+
+ Computing:         Nodes     Number     G-Cycles    Seconds     %
+-----------------------------------------------------------------------
+ Domain decomp.         8       5001       18.965        7.0     1.2
+ DD comm. load          8        501        0.042        0.0     0.0
+ Vsite constr.          8      50001        3.502        1.3     0.2
+ Comm. coord.           8      50001       20.344        7.6     1.3
+ Neighbor search        8       5001       71.920       26.7     4.6
+ Force                  8      50001      874.434      324.6    56.0
+ Wait + Comm. F         8      50001       14.960        5.6     1.0
+ PME mesh               8      50001      472.368      175.4    30.3
+ Vsite spread           8      55002        4.065        1.5     0.3
+ Write traj.            8       1001        1.512        0.6     0.1
+ Update                 8      50001       21.350        7.9     1.4
+ Constraints            8      50001       32.440       12.0     2.1
+ Comm. energies         8       5002       10.089        3.7     0.6
+ Rest                   8                  15.409        5.7     1.0
+-----------------------------------------------------------------------
+ Total                  8                1561.399      579.6   100.0
+-----------------------------------------------------------------------
+-----------------------------------------------------------------------
+ PME redist. X/F        8     100002      117.256       43.5     7.5
+ PME spread/gather      8     100002      197.661       73.4    12.7
+ PME 3D-FFT             8     100002      128.192       47.6     8.2
+ PME solve              8      50001       28.517       10.6     1.8
+-----------------------------------------------------------------------
+
+	Parallel run - timing based on wallclock.
+
+               NODE (s)   Real (s)      (%)
+       Time:     72.455     72.455    100.0
+                       1:12
+               (Mnbf/s)   (GFlops)   (ns/day)  (hour/ns)
+Performance:    487.385     26.781    119.249      0.201
+Finished mdrun on node 0 Fri Jun 24 11:28:44 2016
