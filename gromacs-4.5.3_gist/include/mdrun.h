@@ -167,7 +167,7 @@ typedef double gmx_integrator_t(FILE *log,t_commrec *cr,
                 const char *deviceOptions,
                 unsigned long Flags,
                  //nrego mod
-                 rvec gist_gridctr,real gist_gridspacen, ivec gist_griddim, const char *gist_output,
+                gmx_bool bGist,
                  //end nrego mod
                 gmx_runtime_t *runtime);
 
@@ -346,7 +346,7 @@ int mdrunner(int nthreads_requested, FILE *fplog,t_commrec *cr,int nfile,
              int repl_ex_seed, real pforce,real cpt_period,real max_hours,
          const char *deviceOptions, unsigned long Flags
          //nrego mod
-         , rvec gist_gridctr, real gist_gridspacen, ivec gist_griddim, const char *gist_output
+         ,gmx_bool bGist
          //end nrego mod
          );
 /* Driver routine, that calls the different methods */

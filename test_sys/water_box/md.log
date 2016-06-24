@@ -1,12 +1,12 @@
-Log file opened on Thu Jun 23 18:28:12 2016
-Host: nick-ThinkPad-T440p  pid: 13899  nodeid: 0  nnodes:  1
+Log file opened on Fri Jun 24 07:57:07 2016
+Host: nick-ThinkPad-T440p  pid: 8408  nodeid: 0  nnodes:  1
 The Gromacs distribution was built @TMP_TIME@ by
 nick@nick-ThinkPad-T440p [CMAKE] (@TMP_MACHINE@)
 
 
                          :-)  G  R  O  M  A  C  S  (-:
 
-                   Good gRace! Old Maple Actually Chews Slate
+              GROningen Mixture of Alchemy and Childrens' Stories
 
                             :-)  VERSION 4.5.3  (-:
 
@@ -206,75 +206,3 @@ ann_npoints:           0
    acc:	           0           0           0
    nfreeze:           Y           Y           Y           N           N           N
    energygrp_flags[  0]: 0
-   efield-x:
-      n = 0
-   efield-xt:
-      n = 0
-   efield-y:
-      n = 0
-   efield-yt:
-      n = 0
-   efield-z:
-      n = 0
-   efield-zt:
-      n = 0
-   bQMMM                = FALSE
-   QMconstraints        = 0
-   QMMMscheme           = 0
-   scalefactor          = 1
-qm_opts:
-   ngQM                 = 0
-
-Initializing Domain Decomposition on 2 nodes
-Dynamic load balancing: no
-Will sort the charge groups at every domain (re)decomposition
-Using 0 separate PME nodes
-Optimizing the DD grid for 2 cells with a minimum initial size of 0.000 nm
-Domain decomposition grid 2 x 1 x 1, separate PME nodes 0
-PME domain decomposition: 2 x 1 x 1
-Domain decomposition nodeid 0, coordinates 0 0 0
-
-Table routines are used for coulomb: TRUE
-Table routines are used for vdw:     FALSE
-Will do PME sum in reciprocal space.
-
-++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
-U. Essman, L. Perela, M. L. Berkowitz, T. Darden, H. Lee and L. G. Pedersen 
-A smooth particle mesh Ewald method
-J. Chem. Phys. 103 (1995) pp. 8577-8592
--------- -------- --- Thank You --- -------- --------
-
-Will do ordinary reciprocal space Ewald sum.
-Using a Gaussian width (1/beta) of 0.352179 nm for Ewald
-Cut-off's:   NS: 1.1   Coulomb: 1.1   LJ: 1.1
-Long Range LJ corr.: <C6> 1.7851e-04
-System total charge: 0.000
-Generated table with 1050 data points for Ewald.
-Tabscale = 500 points/nm
-Generated table with 1050 data points for LJ6.
-Tabscale = 500 points/nm
-Generated table with 1050 data points for LJ12.
-Tabscale = 500 points/nm
-
-Enabling TIP4p-like water optimization for 892 molecules.
-
-Configuring nonbonded kernels...
-Configuring standard C nonbonded kernels...
-Testing x86_64 SSE2 support... present.
-
-
-Removing pbc first time
-
-++++ PLEASE READ AND CITE THE FOLLOWING REFERENCE ++++
-S. Miyamoto and P. A. Kollman
-SETTLE: An Analytical Version of the SHAKE and RATTLE Algorithms for Rigid
-Water Models
-J. Comp. Chem. 13 (1992) pp. 952-962
--------- -------- --- Thank You --- -------- --------
-
-
-Linking all bonded interactions to atoms
-
-The initial number of communication pulses is: X 1
-The initial domain decomposition cell size is: X 1.50 nm
-

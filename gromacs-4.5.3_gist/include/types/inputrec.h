@@ -145,6 +145,12 @@ typedef struct {
   FILE       *out_f;      /* output file for pull data */
 } t_pull;
 
+//nrego modification
+typedef struct {
+  rvec gridctr;  /* center of GIST grid */
+} t_gist_group;
+//end mod
+
 typedef struct {
   int  eI;              /* Integration method 				*/
   gmx_large_int_t nsteps;	/* number of steps to be taken			*/

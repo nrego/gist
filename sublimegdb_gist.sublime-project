@@ -1,13 +1,21 @@
 {
-	"folders":
-	[
-		{
-			"path": "."
-		}
-	],
-	"settings":
-	{
-		"sublimegdb_workingdir": "${project_path:test_sys/water_box/}",
-		"sublimegdb_commandline": "gdb -nx -readnow -fullname --interpreter=mi -args './mdrun_gist' '-nt' '2' '-s' 'mytop.tpr' '-rerun' 'mytraj.xtc'"
-	}
+    "folders":
+    [
+        {
+            "path": "."
+        }
+    ],
+    "settings":
+    {
+        "env":
+        {
+          "Linux": 
+          {
+            "NOASSEMBLYLOOPS": 1
+          }
+        },
+        "sublimegdb_workingdir": "${project_path:test_sys/water_box/}",
+        "sublimegdb_commandline": "gdb -nx -readnow -fullname --interpreter=mi -args './grompp_gist' '-f' 'run.mdp' '-c' 'water.gro' '-o' 'mytop.tpr' "
+        //"sublimegdb_commandline": "gdb -nx -readnow -fullname --interpreter=mi -args './mdrun_gist' '-nt' '2' '-s' 'mytop.tpr' '-rerun' 'mytraj.xtc'"
+    }
 }

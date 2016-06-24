@@ -140,10 +140,7 @@ struct mdrunner_arglist
     const char *deviceOptions;
     unsigned long Flags;
     //nrego mod
-    rvec gist_gridctr;
-    real gist_gridspacen;
-    ivec gist_griddim; 
-    const char *gist_output;
+    gmx_bool bGist;
     //end nrego mod
     int ret; /* return value */
 };
@@ -180,7 +177,7 @@ static void mdrunner_start_fn(void *arg)
                       mc.nmultisim, mc.repl_ex_nst, mc.repl_ex_seed, mc.pforce, 
                       mc.cpt_period, mc.max_hours, mc.deviceOptions, mc.Flags
                       //nrego mod
-                      ,mc.gist_gridctr,mc.gist_gridspacen,mc.gist_griddim,mc.gist_output
+                      ,mc.bGist
                       //end nrego mod
                       );
 }
@@ -200,7 +197,7 @@ static t_commrec *mdrunner_start_threads(int nthreads,
               int repl_ex_seed, real pforce,real cpt_period, real max_hours, 
               const char *deviceOptions, 
               //nrego mod
-              rvec gist_gridctr,real gist_gridspacen, ivec gist_griddim, const char *gist_output,
+              gmx_bool bGist,
               //end nrego mod
               unsigned long Flags)
 {
@@ -247,14 +244,7 @@ static t_commrec *mdrunner_start_threads(int nthreads,
     mda->max_hours=max_hours;
     mda->deviceOptions=deviceOptions;
     //nrego mod
-    mda->gist_gridctr[0]=gist_gridctr[0];
-    mda->gist_gridctr[1]=gist_gridctr[1];
-    mda->gist_gridctr[2]=gist_gridctr[2];
-    mda->gist_gridspacen=gist_gridspacen;
-    mda->gist_griddim[0]=gist_griddim[0];
-    mda->gist_griddim[1]=gist_griddim[1];
-    mda->gist_griddim[2]=gist_griddim[2];
-    mda->gist_output=gist_output;
+    mda->bGist = bGist;
     //end nrego mod
     mda->Flags=Flags;
 
@@ -363,7 +353,7 @@ int mdrunner(int nthreads_requested, FILE *fplog,t_commrec *cr,int nfile,
              int repl_ex_seed, real pforce,real cpt_period,real max_hours,
              const char *deviceOptions, unsigned long Flags
              //nrego mod
-             ,rvec gist_gridctr,real gist_gridspacen, ivec gist_griddim, const char *gist_output
+             ,gmx_bool bGist
              //end nrego mod
              )
 {
@@ -431,7 +421,7 @@ int mdrunner(int nthreads_requested, FILE *fplog,t_commrec *cr,int nfile,
                                       repl_ex_nst, repl_ex_seed, pforce, 
                                       cpt_period, max_hours, deviceOptions, 
                                       //nrego mod
-                                      gist_gridctr,gist_gridspacen,gist_griddim,gist_output,
+                                      bGist,
                                       //end nrego mod
                                       Flags);
             /* the main thread continues here with a new cr. We don't deallocate
@@ -855,7 +845,7 @@ int mdrunner(int nthreads_requested, FILE *fplog,t_commrec *cr,int nfile,
                                       deviceOptions,
                                       Flags,
                                       //nrego mod
-                                      gist_gridctr,gist_gridspacen, gist_griddim, gist_output,
+                                      bGist,
                                       //end nrego mod
                                       &runtime);
 

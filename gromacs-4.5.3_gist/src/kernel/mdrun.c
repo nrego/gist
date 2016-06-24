@@ -390,10 +390,7 @@ int main(int argc,char *argv[])
   gmx_bool bReproducible = FALSE;
 
   //nrego - new GIST variables
-  rvec gist_gridctr = {0.0,0.0,0.0};
-  real gist_gridspacen = 0.050;
-  rvec realgist_griddim = {40,40,40};
-  char *gist_output = NULL;
+ gmx_bool bGist = FALSE;
   //nrego - end mod
 
   int  npme=-1;
@@ -490,15 +487,9 @@ int main(int argc,char *argv[])
     { "-resethway", FALSE, etBOOL, {&bResetCountersHalfWay},
       "HIDDENReset the cycle counters after half the number of steps or halfway -maxh" },
 // Nrego - new command line options for running GIST
-    { "-gist_gridctr", FALSE, etRVEC, { &gist_gridctr }, 
-      "HIDDENGIST grid center with -rerun in nm (a,b,c)" },
-    { "-gist_gridspacen", FALSE, etREAL, { &gist_gridspacen},
-      "HIDDENGIST grid spacing with -rerun in nm"},
-    { "-gist_griddim", FALSE, etRVEC, { &realgist_griddim },
-      "HIDDENGIST with -rerun number of grid increments along coordinate axis (a,b,c)"},
-    { "-gist_output", FALSE, etSTR, { &gist_output },
-      "HIDDENGIST (with -rerun) output file name"}
-
+    { "-gist", FALSE, etBOOL, { &bGist }, 
+      "Do GIST - option only matters if '-rerun' used" },
+// end nrego mod
 #ifdef GMX_OPENMM
     ,
     { "-device",  FALSE, etSTR, {&deviceOptions},
@@ -516,9 +507,6 @@ int main(int argc,char *argv[])
   char     suffix[STRLEN];
   int      rc;
 
-  //nrego 
-  ivec     gist_griddim;
-  //end nrego mod
 
 
   cr = init_par(&argc,&argv);
@@ -658,11 +646,6 @@ int main(int argc,char *argv[])
   ddxyz[YY] = (int)(realddxyz[YY] + 0.5);
   ddxyz[ZZ] = (int)(realddxyz[ZZ] + 0.5);
 
-  //nrego mod
-  gist_griddim[0] = (int)(realgist_griddim[0]);
-  gist_griddim[1] = (int)(realgist_griddim[1]);
-  gist_griddim[2] = (int)(realgist_griddim[2]);
-  //end nrego mod
 
   rc = mdrunner(nthreads, fplog,cr,NFILE,fnm,oenv,bVerbose,bCompact,
                 nstglobalcomm, ddxyz,dd_node_order,rdd,rconstr,
@@ -670,7 +653,7 @@ int main(int argc,char *argv[])
                 nstepout,resetstep,nmultisim,repl_ex_nst,repl_ex_seed,
                 pforce, cpt_period,max_hours,deviceOptions,Flags
                 //Nrego mod
-                ,gist_gridctr,gist_gridspacen,gist_griddim,gist_output
+                ,bGist
                 //end nrego mod
                 );
 

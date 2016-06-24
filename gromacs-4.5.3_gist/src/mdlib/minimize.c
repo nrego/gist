@@ -882,7 +882,7 @@ double do_cg(FILE *fplog,t_commrec *cr,
              const char *deviceOptions,
              unsigned long Flags,
              //nrego mod
-             rvec gist_gridctr,real gist_gridspacen, ivec gist_griddim, const char *gist_output,
+             gmx_bool bGist,
              //end nrego mod
              gmx_runtime_t *runtime)
 {
@@ -1405,7 +1405,7 @@ double do_lbfgs(FILE *fplog,t_commrec *cr,
                 const char *deviceOptions,
                 unsigned long Flags,
                 //nrego mod
-                rvec gist_gridctr,real gist_gridspacen, ivec gist_griddim, const char *gist_output,
+                gmx_bool bGist,
                 //end nrego mod
                 gmx_runtime_t *runtime)
 {
@@ -2042,7 +2042,7 @@ double do_steep(FILE *fplog,t_commrec *cr,
                 const char *deviceOptions,
                 unsigned long Flags,
                 //nrego mod
-                rvec gist_gridctr,real gist_gridspacen, ivec gist_griddim, const char *gist_output,
+                gmx_bool bGist,
                 //end nrego mod
                 gmx_runtime_t *runtime)
 { 
@@ -2249,7 +2249,7 @@ double do_nm(FILE *fplog,t_commrec *cr,
              const char *deviceOptions,
              unsigned long Flags,
              //nrego mod
-             rvec gist_gridctr,real gist_gridspacen, ivec gist_griddim, const char *gist_output,
+             gmx_bool bGist,
              //end nrego mod
              gmx_runtime_t *runtime)
 {

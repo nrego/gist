@@ -1076,7 +1076,7 @@ double do_md(FILE *fplog,t_commrec *cr,int nfile,const t_filenm fnm[],
              const char *deviceOptions,
              unsigned long Flags,
              //nrego mod
-             rvec gist_gridctr,real gist_gridspacen, ivec gist_griddim, const char *gist_output,
+             gmx_bool bGist,
              //end nrego mod
              gmx_runtime_t *runtime)
 {
@@ -1227,6 +1227,8 @@ double do_md(FILE *fplog,t_commrec *cr,int nfile,const t_filenm fnm[],
     clear_mat(pres);
     /* Energy terms and groups */
     snew(enerd,1);
+    //nrego mod - will have to initialize grid (or subvolumes for watermap), then
+    //decide appropriate number of energy groups sometime before initialization below
     init_enerdata(top_global->groups.grps[egcENER].nr,ir->n_flambda,enerd);
     if (DOMAINDECOMP(cr))
     {
