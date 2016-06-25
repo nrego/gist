@@ -147,8 +147,10 @@ typedef struct {
 
 //nrego modification
 typedef struct {
-  rvec gridctr;  /* center of GIST grid */
-} t_gist_group;
+  rvec gridcntr;  /* center of GIST grid */
+  rvec griddim; 
+  real gridspacen; /* grid spacing, in nm */
+} t_gistgrp;
 //end mod
 
 typedef struct {
@@ -290,6 +292,9 @@ typedef struct {
   int  QMconstraints;   /* constraints on QM bonds                      */
   int  QMMMscheme;      /* Scheme: ONIOM or normal                      */
   real scalefactor;     /* factor for scaling the MM charges in QM calc.*/
+  //nrego mod
+  t_gistgrp *gistgrp; /* store all necessary gist options */
+  //end mod
 } t_inputrec;
 
 #define DEFORM(ir) ((ir).deform[XX][XX]!=0 || (ir).deform[YY][YY]!=0 || (ir).deform[ZZ][ZZ]!=0 || (ir).deform[YY][XX]!=0 || (ir).deform[ZZ][XX]!=0 || (ir).deform[ZZ][YY]!=0)

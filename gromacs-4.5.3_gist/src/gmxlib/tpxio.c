@@ -64,9 +64,7 @@
 #include "mtop_util.h"
 
 /* This number should be increased whenever the file format changes! */
-//nrego mod
-static const int tpx_version = 74;
-//end nrego mod
+static const int tpx_version = 73;
 
 /* This number should only be increased when you edit the TOPOLOGY section
  * of the tpx format. This way we can maintain forward compatibility too
@@ -233,17 +231,24 @@ static void do_pullgrp(t_fileio *fio, t_pullgrp *pgrp, gmx_bool bRead,
   }
 }
 
-static void do_pull(t_fileio *fio, t_inputrec *ir, gmx_bool bRead, int file_version)
+static void do_pull(t_fileio *fio, t_pull *pull,gmx_bool bRead, int file_version)
 {
-  
+  int g;
+
+  gmx_fio_do_int(fio,pull->ngrp);
+  gmx_fio_do_int(fio,pull->eGeom);
+  gmx_fio_do_ivec(fio,pull->dim);
+  gmx_fio_do_real(fio,pull->cyl_r1);
+  gmx_fio_do_real(fio,pull->cyl_r0);
+  gmx_fio_do_real(fio,pull->constr_tol);
+  gmx_fio_do_int(fio,pull->nstxout);
+  gmx_fio_do_int(fio,pull->nstfout);
+  if (bRead)
+    snew(pull->grp,pull->ngrp+1);
+  for(g=0; g<pull->ngrp+1; g++)
+    do_pullgrp(fio,&pull->grp[g],bRead,file_version);
 }
 
-//nrego mod
-//...Set up GIST grid?? Let's set up everything needed for gist here.
-static void do_gist(t_fileio *fio, t_pull *pull,gmx_bool bRead, int file_version) {
-
-}
-//end nrego mod
 static void do_inputrec(t_fileio *fio, t_inputrec *ir,gmx_bool bRead, 
                         int file_version, real *fudgeQQ)
 {
