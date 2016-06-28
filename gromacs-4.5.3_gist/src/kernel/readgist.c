@@ -38,6 +38,26 @@ static void string2dvec(char buf[], dvec nums)
 /* set up water grop and solute group*/
 void make_gist_groups(t_gistgrp *gistgrp, char *watgrp, char *solgrp, t_blocka *grps, char **gnames)
 {
+
+    int ig;
+    //first find waters
+    //Note that it should *not* be possible to have an empty string at this point - defaults to 'OW'
+    ig = search_string(watgrp, grps->nr, gnames);
+    gistgrp->nat_wat = grps->index[ig+1] - grps->index[ig];
+    fprintf("GIST water group ('%s') has %d atoms\n", gnames[ig], gistgrp->nat_wat);
+
+    //now for solute atoms, if included
+    if (strcmp(solgrp, "") == 0) {
+        gistgrp->nat_sol = 0;
+    }
+    else {
+        ig = search_string(solgrp, grps->nr, gnames);
+        gistgrp->nat_sol = grps->index[ig+1] - grps->index[ig];
+    }
+    fprintf("GIST solute group ('%s') has %d atoms\n", gnames[ig], gistgrp->nat_sol);
+
+
+    //now solute atoms, if provided
     /*
   int  d,nchar,g,ig=-1,i;
   t_pullgrp *pgrp;
