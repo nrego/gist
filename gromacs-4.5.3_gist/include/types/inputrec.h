@@ -150,6 +150,12 @@ typedef struct {
   rvec gridcntr;  /* center of GIST grid */
   rvec griddim; 
   real gridspacen; /* grid spacing, in nm */
+  int        nat_sol;      /* Number of solute atoms */
+  int        nat_wat;    /*number of solvent atoms */
+  atom_id    *ind_sol;     /* The solute global atoms numbers */
+  atom_id    *ind_wat;   /* The solvent global atoms numbers */
+  int        nat_loc_sol;  /* Number of local solute atoms */
+  int        nat_loc_wat;  /* Number of local water atoms */
 } t_gistgrp;
 //end mod
 
@@ -293,6 +299,7 @@ typedef struct {
   int  QMMMscheme;      /* Scheme: ONIOM or normal                      */
   real scalefactor;     /* factor for scaling the MM charges in QM calc.*/
   //nrego mod
+  real gist_gridspacen; /* grid spacing, in nm */
   t_gistgrp *gistgrp; /* store all necessary gist options */
   //end mod
 } t_inputrec;

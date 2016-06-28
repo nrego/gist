@@ -14,7 +14,8 @@ set(GMXPREPROCESS_SOURCES
     nm2type.c
     pdb2top.c       
     pgutil.c        
-    readir.c        
+    readir.c   
+    readgist.c     
     readpull.c      
     resall.c        
     sorting.c       

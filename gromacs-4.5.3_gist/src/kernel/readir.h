@@ -136,4 +136,13 @@ extern void set_pull_init(t_inputrec *ir,gmx_mtop_t *mtop,rvec *x,matrix box,
  * If bStart adds the distance to the initial reference location.
  */
 
+//nrego mod
+/* Routines in ./readgist.c 
+This really just mirrors 'make_pull_groups' to set up gist atom groups after grompp has
+initialized atomic index groups
+*/
+
+extern void make_gist_groups(t_gistgrp *gistgrp, char *watgrp, char *solgrp, t_blocka *grps, char **gnames);
+//end nrego mod
+
 #endif	/* _readir_h */

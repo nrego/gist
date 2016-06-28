@@ -87,6 +87,11 @@ static char QMmethod[STRLEN],QMbasis[STRLEN],QMcharge[STRLEN],QMmult[STRLEN],
 static char efield_x[STRLEN],efield_xt[STRLEN],efield_y[STRLEN],
   efield_yt[STRLEN],efield_z[STRLEN],efield_zt[STRLEN];
 
+// nrego mod - read in GIST grid center as string
+static char gist_gridcntr[STRLEN], gist_griddim[STRLEN];
+static char gist_solute_grp[STRLEN], gist_solvent_grp[STRLEN]; //stored temporarily to initialze groups
+//end nrego mod
+
 enum {
     egrptpALL,         /* All particles have to be a member of a group.     */
     egrptpALL_GENREST, /* A rest group with name is generated for particles *
@@ -1082,6 +1087,17 @@ void get_ir(const char *mdparin,const char *mdparout,
     pull_grp = read_pullparams(&ninp,&inp,ir->pull,&opts->pull_start,wi);
   }
 
+//nrego mod
+  CCTYPE("GIST options");
+  CTYPE("Parameters to set up GIST grid");
+  RTYPE("gridspacen", ir->gist_gridspacen, 0.05);
+  STYPE("gridcntr", gist_gridcntr, NULL);
+  STYPE("griddim", gist_griddim, NULL);
+  snew(ir->gistgrp,1); // look up snew macro to make sure I'm assigning this correctly...
+  STYPE("gridwatgrp", gist_solvent_grp, NULL);
+  STYPE("gridsolgrp", gist_solute_grp, NULL); /* forget it if no solute specified? */
+//end nrego mod
+
   /* Refinement */
   CCTYPE("NMR refinement stuff");
   CTYPE ("Distance restraints type: No, Simple or Ensemble");
@@ -1995,6 +2011,12 @@ void do_index(const char* mdparin, const char *ndx,
   if (ir->ePull != epullNO) {
     make_pull_groups(ir->pull,pull_grp,grps,gnames);
   }
+
+//nrego mod
+  if (ir->gistgrp != NULL){
+    make_gist_groups(ir->gistgrp, gist_solvent_grp, gist_solute_grp, grps, gnames);
+  }
+//end nrego mod
 
   nacc = str_nelem(acc,MAXPTR,ptr1);
   nacg = str_nelem(accgrps,MAXPTR,ptr2);

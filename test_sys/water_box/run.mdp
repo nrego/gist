@@ -53,3 +53,6 @@ freezedim  = Y Y Y
 gridcntr   = 1.5 1.5 2.5
 gridspacen = 0.05
 griddim    = 40 40 40
+gridwatgrp = OW
+
+
