@@ -1091,14 +1091,13 @@ void get_ir(const char *mdparin,const char *mdparout,
   CCTYPE("GIST options");
   CTYPE("Parameters to set up GIST grid");
   EETYPE("gist", ir->eGist, egist_names);
-  if (ir->eGist != egistNO) {
-    RTYPE("gridspacen", ir->gist_gridspacen, 0.05);
-    STYPE("gridcntr", gist_gridcntr, NULL);
-    STYPE("griddim", gist_griddim, NULL);
-    snew(ir->gistgrp,1); // look up snew macro to make sure I'm assigning this correctly...
-    STYPE("gridwatgrp", gist_solvent_grp, "OW");
-    STYPE("gridsolgrp", gist_solute_grp, NULL); /* forget it if no solute specified? */
-  }
+  RTYPE("gridspacen", ir->gist_gridspacen, 0.05);
+  STYPE("gridcntr", gist_gridcntr, NULL);
+  STYPE("griddim", gist_griddim, NULL);
+  snew(ir->gistgrp,1); // look up snew macro to make sure I'm assigning this correctly...
+  STYPE("gridwatgrp", gist_solvent_grp, "OW");
+  STYPE("gridsolgrp", gist_solute_grp, NULL); /* forget it if no solute specified? */
+  
 
 //end nrego mod
 
