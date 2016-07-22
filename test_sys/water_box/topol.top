@@ -30,6 +30,7 @@
 #endif
 
 #include "./charmm36-jun2015.ff/wall.itp"
+#include "./charmm36-jun2015.ff/dummy.itp"
 
 [ system ]
 ; Name
@@ -39,3 +40,4 @@ Gromacs Runs On Most of All Computer Systems in water
 ; Compound        #mols
 SOL               892
 WAL               144
+DUM                 1

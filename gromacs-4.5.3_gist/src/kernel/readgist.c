@@ -44,7 +44,7 @@ void make_gist_groups(t_gistgrp *gistgrp, char *watgrp, char *solgrp, t_blocka *
     //Note that it should *not* be possible to have an empty string at this point - defaults to 'OW'
     ig = search_string(watgrp, grps->nr, gnames);
     gistgrp->nat_wat = grps->index[ig+1] - grps->index[ig];
-    fprintf("GIST water group ('%s') has %d atoms\n", gnames[ig], gistgrp->nat_wat);
+    printf("GIST water group ('%s') has %d atoms\n", watgrp, gistgrp->nat_wat);
 
     //now for solute atoms, if included
     if (strcmp(solgrp, "") == 0) {
@@ -53,8 +53,9 @@ void make_gist_groups(t_gistgrp *gistgrp, char *watgrp, char *solgrp, t_blocka *
     else {
         ig = search_string(solgrp, grps->nr, gnames);
         gistgrp->nat_sol = grps->index[ig+1] - grps->index[ig];
+        printf("GIST solute group ('%s') has %d atoms\n", solgrp, gistgrp->nat_sol);
     }
-    fprintf("GIST solute group ('%s') has %d atoms\n", gnames[ig], gistgrp->nat_sol);
+    
 
 
     //now solute atoms, if provided

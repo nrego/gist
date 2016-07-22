@@ -397,6 +397,8 @@ SG3O3    16    32.060000    0.000  A  0.356359487256  1.46440
    SP    16    32.060000    0.000  A  0.391995436000  1.88280  ; S-adenosyl methionine
 ; (nrego - added WX atom type for walls)
 WX           0       16.043  0.00000 A   3.39967e-01  6.94120e-05
+; (nrego - added DUM atom type for dummy atoms)
+DUM          0       0.0001  0.0000  A   0.00000e+00  0.00000e+00
 
 ; The following atom types are NOT part of the CHARMM distribution
 ; atomtypes for additional water models
