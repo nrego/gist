@@ -184,6 +184,12 @@ const char *epull_names[epullNR+1] = {
   "no", "umbrella", "constraint", "constant_force", NULL
 };
 
+/* nrego - define egist_names for possible GIST mdp options */
+const char *egist_names[egistNR+1] = {
+  "no", "yes", NULL
+};
+/* nrego end mod */
+
 const char *epullg_names[epullgNR+1] = { 
   "distance", "direction", "cylinder", "position", "direction_periodic", NULL
 };

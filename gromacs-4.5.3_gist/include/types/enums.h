@@ -245,6 +245,12 @@ enum {
 enum {
   eMultentOptName, eMultentOptNo, eMultentOptLast, eMultentOptNR
 };
+    
+/* Nrego - gist stuff */
+enum {
+  egistNO, egistYES, egistNR
+};
+/* end nrego mod */
 
 #ifdef __cplusplus
 }

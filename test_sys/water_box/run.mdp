@@ -50,9 +50,10 @@ freezedim  = Y Y Y Y Y Y
 
 
 ; GIST stuff
+gist       = no
 gridcntr   = 1.5 1.5 2.5
 gridspacen = 0.05
 griddim    = 40 40 40
 gridwatgrp = OW
-gridsolgrp = DUM
+;gridsolgrp = DUM
 

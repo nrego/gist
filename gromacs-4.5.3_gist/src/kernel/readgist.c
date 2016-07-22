@@ -48,7 +48,8 @@ void make_gist_groups(t_gistgrp *gistgrp, char *watgrp, char *solgrp, t_blocka *
 
     //now for solute atoms, if included
     if (strcmp(solgrp, "") == 0) {
-        gistgrp->nat_sol = 0;
+        gmx_fatal(FARGS, "No Solute group specified for GIST");
+        //gistgrp->nat_sol = 0;
     }
     else {
         ig = search_string(solgrp, grps->nr, gnames);

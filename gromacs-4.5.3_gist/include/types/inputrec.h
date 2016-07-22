@@ -299,6 +299,7 @@ typedef struct {
   int  QMMMscheme;      /* Scheme: ONIOM or normal                      */
   real scalefactor;     /* factor for scaling the MM charges in QM calc.*/
   //nrego mod
+  int eGist;
   real gist_gridspacen; /* grid spacing, in nm */
   t_gistgrp *gistgrp; /* store all necessary gist options */
   //end mod

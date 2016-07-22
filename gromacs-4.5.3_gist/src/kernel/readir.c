@@ -1090,12 +1090,16 @@ void get_ir(const char *mdparin,const char *mdparout,
 //nrego mod
   CCTYPE("GIST options");
   CTYPE("Parameters to set up GIST grid");
-  RTYPE("gridspacen", ir->gist_gridspacen, 0.05);
-  STYPE("gridcntr", gist_gridcntr, NULL);
-  STYPE("griddim", gist_griddim, NULL);
-  snew(ir->gistgrp,1); // look up snew macro to make sure I'm assigning this correctly...
-  STYPE("gridwatgrp", gist_solvent_grp, "OW");
-  STYPE("gridsolgrp", gist_solute_grp, NULL); /* forget it if no solute specified? */
+  EETYPE("gist", ir->eGist, egist_names);
+  if (ir->eGist != egistNO) {
+    RTYPE("gridspacen", ir->gist_gridspacen, 0.05);
+    STYPE("gridcntr", gist_gridcntr, NULL);
+    STYPE("griddim", gist_griddim, NULL);
+    snew(ir->gistgrp,1); // look up snew macro to make sure I'm assigning this correctly...
+    STYPE("gridwatgrp", gist_solvent_grp, "OW");
+    STYPE("gridsolgrp", gist_solute_grp, NULL); /* forget it if no solute specified? */
+  }
+
 //end nrego mod
 
   /* Refinement */
@@ -2013,7 +2017,7 @@ void do_index(const char* mdparin, const char *ndx,
   }
 
 //nrego mod
-  if (ir->gistgrp != NULL){
+  if (ir->eGist != egistNO){
     make_gist_groups(ir->gistgrp, gist_solvent_grp, gist_solute_grp, grps, gnames);
   }
 //end nrego mod

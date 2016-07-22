@@ -86,6 +86,9 @@ extern const char *eQMmethod_names[eQMmethodNR+1];
 extern const char *eQMbasis_names[eQMbasisNR+1];
 extern const char *eQMMMscheme_names[eQMMMschemeNR+1];
 extern const char *eMultentOpt_names[eMultentOptNR+1];
+/* nrego - GIST mdp options */
+extern const char *egist_names[egistNR+1];
+/* end nrego mod */
 
 #define	UNDEFINED		"UNDEFINED"
 #define ENUM_NAME(e,max,names)	((((e)<0)||((e)>=(max)))?UNDEFINED:(names)[e])
@@ -120,6 +123,9 @@ extern const char *eMultentOpt_names[eMultentOptNR+1];
 #define EIMPLICITSOL(e) ENUM_NAME(e,eisNR,eis_names)
 #define EWALLTYPE(e)   ENUM_NAME(e,ewtNR,ewt_names)
 #define EPULLTYPE(e)   ENUM_NAME(e,epullNR,epull_names)
+/* nrego mod - not sure if/when I'll need to call this macro... */
+#define EGISTTYPE(e)   ENUM_NAME(e,egistNR,egist_names)
+/* end nrego mod */
 #define EPULLGEOM(e)   ENUM_NAME(e,epullgNR,epullg_names)
 #define EQMMETHOD(e)   ENUM_NAME(e,eQMmethodNR,eQMmethod_names)
 #define EQMBASIS(e)    ENUM_NAME(e,eQMbasisNR,eQMbasis_names)
