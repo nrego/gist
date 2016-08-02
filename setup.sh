@@ -2,12 +2,14 @@
 
 source ~/.bashrc
 # Compile gromacs in debug mode
+rm -rf debug
 mkdir -p debug
 cd debug
 
 EXTRA_ARG=""
 if [ -e /Applications/Xcode.app ]; then
- export CXX="/usr/local/bin/g++-4.8" CC="/usr/local/bin/gcc-4.8"
+ export CXX="/opt/local/bin/g++-mp-4.8" CC="/opt/local/bin/gcc-mp-4.8"
+ EXTRA_ARG="-DCMAKE_C_COMPILER=/opt/local/bin/gcc-mp-4.8 -DCMAKE_CXX_COMPILER=/opt/local/bin/g++-mp-4.8"
 fi
 
 rm -rf *
